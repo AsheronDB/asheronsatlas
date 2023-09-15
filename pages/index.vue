@@ -18,8 +18,8 @@
         </div>
       </div>
 
-      <DetailCard class="pointer-events-auto z-50" v-if="targetedPosition" />
-      <LootTiersKey class="pointer-events-auto z-50" v-if="options.dereth.layers.lootTiers" />
+      <Transition name="fade"><DetailCard class="pointer-events-auto z-50" v-if="targetedPosition" /></Transition>
+      <Transition name="fade"> <LootTiersKey class="pointer-events-auto z-50" v-if="options.dereth.layers.lootTiers" /></Transition>
     </div>
   </div>
 </template>
