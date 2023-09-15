@@ -2,39 +2,45 @@
   <div
     id="infobox"
     class="bg-slate-50 rounded-lg flex flex-col overflow-hidden z-10"
-    :class="{ 'opacity-25': atlasStore.searchResults.length > 0 }"
-  >
+    :class="{ 'opacity-25': atlasStore.searchResults.length > 0 }">
     <!-- {{ selectedLocationId }}
     {{ selectedLocation }} -->
     <header class="p-5 border-b border-slate-200 flex-initial">
-      <p class="text-xs font-bold text-slate-500 capitalize mb-0.5" v-if="selectedLocation.properties.category">
+      <p
+        class="text-xs font-bold text-slate-500 capitalize mb-0.5"
+        v-if="selectedLocation.properties.category">
         {{ selectedLocation.properties.category }}
       </p>
       <h3 class="font-bold leading-tight">
         {{ selectedLocation.properties.name }}
       </h3>
-      <p class="pt-1 text-xs text-slate-400" v-if="selectedLocation.properties.reverseGeocode && selectedLocation.properties.reverseGeocode.length > 0">
-        {{ selectedLocation.properties.reverseGeocode.join(', ') }}
+      <p
+        class="pt-1 text-xs text-slate-400"
+        v-if="
+          selectedLocation.properties.reverseGeocode &&
+          selectedLocation.properties.reverseGeocode.length > 0
+        ">
+        {{ selectedLocation.properties.reverseGeocode.join(", ") }}
         <!-- Auberean, Dereth, Northern Osteth, Olthoi North<br/>
         Auberean, Knorr, Knorr Lyceum<br/>
         Bur, Kor-Gursha -->
       </p>
-      <p
-        class="pt-2"
-      v-if="selectedLocation.properties.position">
-      <span class="inline text-xs bg-white font-bold text-slate-400 border rounded-md inline py-1 px-2 border-slate-300">{{ selectedLocation.properties.position.coordinates.radar.formatted }}</span>
-        
+      <p class="pt-2" v-if="selectedLocation.properties.position">
+        <span
+          class="inline text-xs bg-white font-bold text-slate-400 border rounded-md inline py-1 px-2 border-slate-300"
+          >{{
+            selectedLocation.properties.position.coordinates.radar.formatted
+          }}</span
+        >
       </p>
     </header>
 
     <div class="body flex-auto overflow-auto p-4">
-
-        <p>
-            {{ selectedLocation.properties }}
-
-           </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-<!-- 
+      <p>
+        {{ selectedLocation.properties }}
+      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <!-- 
 
           <Disclosure>
     <DisclosureButton class="py-2">
@@ -44,8 +50,6 @@
       Yes! You can purchase a license that you can share with your entire team.
     </DisclosurePanel>
   </Disclosure> -->
-
-
 
       <!-- <Accordion flush>
            <accordion-panel>
@@ -149,10 +153,18 @@
       </Accordion> -->
     </div>
 
-    <footer class="flex-initial flex flex-row border-t border-slate-200 py-3 px-3">
-    
-<button type="button" class="py-2.5 px-5 mr-2 text-sm flex-auto font-medium text-slate-900 focus:outline-none bg-white rounded-lg border border-slate-200 hover:bg-slate-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 dark:bg-slate-800 dark:text-slate-400 dark:border-slate-600 dark:hover:text-white dark:hover:bg-slate-700">Go To</button>
-<button type="button" class="flex-auto  py-2.5 px-5 text-sm font-medium text-slate-900 focus:outline-none bg-white rounded-lg border border-slate-200 hover:bg-slate-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 dark:bg-slate-800 dark:text-slate-400 dark:border-slate-600 dark:hover:text-white dark:hover:bg-slate-700">Route</button>
+    <footer
+      class="flex-initial flex flex-row border-t border-slate-200 py-3 px-3">
+      <button
+        type="button"
+        class="py-2.5 px-5 mr-2 text-sm flex-auto font-medium text-slate-900 focus:outline-none bg-white rounded-lg border border-slate-200 hover:bg-slate-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 dark:bg-slate-800 dark:text-slate-400 dark:border-slate-600 dark:hover:text-white dark:hover:bg-slate-700">
+        Go To
+      </button>
+      <button
+        type="button"
+        class="flex-auto py-2.5 px-5 text-sm font-medium text-slate-900 focus:outline-none bg-white rounded-lg border border-slate-200 hover:bg-slate-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 dark:bg-slate-800 dark:text-slate-400 dark:border-slate-600 dark:hover:text-white dark:hover:bg-slate-700">
+        Route
+      </button>
     </footer>
     <!-- 
     {{ selectedLocation.properties }}
@@ -177,15 +189,6 @@ const { selectedLocationId, selectedLocation } = storeToRefs(atlasStore);
 //   AccordionHeader,
 //   AccordionContent,
 // } from "flowbite-vue";
-
-
-
-
-  import {
-    Disclosure,
-    DisclosureButton,
-    DisclosurePanel,
-  } from '@headlessui/vue'
 </script>
 
 <style scoped>

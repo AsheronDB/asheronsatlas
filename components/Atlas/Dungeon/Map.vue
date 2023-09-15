@@ -5,9 +5,7 @@
 </template>
 
 <script setup>
-import { ref, reactive, computed, watch, onMounted, toRaw } from "vue";
-import L from "leaflet";
-import { orderBy, debounce } from "lodash";
+import { orderBy, debounce } from "lodash-es";
 
 import { useAtlasStore } from "@/store/atlas";
 const atlasStore = useAtlasStore();

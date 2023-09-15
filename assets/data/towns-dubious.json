@@ -1,0 +1,40 @@
+[ {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.9,
+                59
+            ]
+        },
+        "properties": {
+            "name": "Merwart Village",
+            "category": "town"
+        }
+    },  {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                90.3,
+                -43.1
+            ]
+        },
+        "properties": {
+            "name": "Eastwatch",
+            "category": "town"
+        }
+    },     {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                72.8,
+                -73.4
+            ]
+        },
+        "properties": {
+            "name": "Westwatch",
+            "category": "outpost"
+        }
+    },]

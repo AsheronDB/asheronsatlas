@@ -5,12 +5,9 @@
 </template>
 
 <script setup>
-import { ref, reactive, computed, onMounted } from "vue";
-
-import L from "leaflet";
 
 import * as turf from "@turf/turf";
-import { orderBy, debounce } from "lodash";
+import { orderBy, debounce } from "lodash-es";
 
 // import { mapActions, mapGetters } from "vuex";
 
@@ -20,7 +17,7 @@ import routeTest from "@/assets/data/route.json";
 
 // import labelgun from "labelgun";
 
-import * as dateFns from "date-fns";
+// import * as dateFns from "date-fns";
 
 // import ButtonRadio from "@/components/ButtonRadio";
 

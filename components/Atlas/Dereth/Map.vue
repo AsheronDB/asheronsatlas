@@ -5,9 +5,8 @@
 </template>
 
 <script setup>
-import L from "leaflet";
-import { orderBy, debounce } from "lodash";
-import { useAtlasStore } from "@/store/atlas";
+import { orderBy, debounce } from "lodash-es";
+import { useStore } from "@/store";
 import * as mapIcons from "@/common/mapIcons.js";
 import { ACPosition, globalToPos } from "@asherondb/ac-position";
 import impassableWaterSvg from "@/assets/img/map/impassable.water.svg?raw";
@@ -31,23 +30,23 @@ import {
   DERETH_MAP_TILES_URL,
 } from "@/common/constants.js";
 
-const atlasStore = useAtlasStore();
+const store = useStore();
 const mapContainer = ref();
-let locationClicked = ref(false);
-let mapClicked = ref(false);
-let mapMouseDown = ref(false);
-let isInitialLoad = ref(true);
-let isMapReady = ref(false);
-let mapOrigin = ref([0, 0]);
-let mapPadding = ref(4000);
-let currentZoom = ref(0);
-let minZoom = ref(DERETH_MAP_MIN_ZOOM);
-let maxZoom = ref(DERETH_MAP_MAX_ZOOM);
-let map = ref(null);
-let mapSize = ref(GLOBAL_COORDS_MAX);
-let tileSize = ref(DERETH_MAP_TILE_SIZE);
+const locationClicked = ref(false);
+const mapClicked = ref(false);
+const mapMouseDown = ref(false);
+const isInitialLoad = ref(true);
+const isMapReady = ref(false);
+const mapOrigin = ref([0, 0]);
+const mapPadding = ref(4000);
+const currentZoom = ref(0);
+const minZoom = ref(DERETH_MAP_MIN_ZOOM);
+const maxZoom = ref(DERETH_MAP_MAX_ZOOM);
+const map = ref(null);
+const mapSize = ref(GLOBAL_COORDS_MAX);
+const tileSize = ref(DERETH_MAP_TILE_SIZE);
 
-let layers = reactive({
+const layers = reactive({
   features: {
     selectedLocation: null,
     targetedPosition: null,
@@ -82,7 +81,7 @@ let layers = reactive({
   },
 });
 
-let renderers = reactive({
+const renderers = reactive({
   canvasGrid: null,
   impassable: null,
 });
@@ -114,7 +113,7 @@ const mapCenterLatLng = computed(() => {
 const locationLayers = computed(() => {
   if (!isMapReady.value) return [];
 
-  let points = atlasStore.locations || [];
+  let points = store.locations || [];
 
   let pointMarkers = points.map((location) => {
     let icon = mapIcons.town;
@@ -222,7 +221,7 @@ const locationLayers = computed(() => {
 // WATCHERS
 
 watch(
-  () => atlasStore.options.dereth.landblockGrid,
+  () => store.options.dereth.landblockGrid,
   async (newVal, oldVal) => {
     console.log("landblockGrid watcher");
     handleLandblockGrid();
@@ -230,10 +229,10 @@ watch(
 );
 
 watch(
-  () => atlasStore.options.dereth.layers.impassableTerrain,
+  () => store.options.dereth.layers.impassableTerrain,
   async (newVal, oldVal) => {
     console.log("impassableTerrain watcher");
-    toggleLayerVisibility(atlasStore.options.dereth.layers.impassableTerrain, [
+    toggleLayerVisibility(store.options.dereth.layers.impassableTerrain, [
       layers.impassable.water,
       layers.impassable.slopes,
     ]);
@@ -241,22 +240,22 @@ watch(
 );
 
 watch(
-  () => atlasStore.options.dereth.layers.landscapeObjects,
+  () => store.options.dereth.layers.landscapeObjects,
   async (newVal, oldVal) => {
     console.log("impassableTerrain watcher");
 
-    toggleLayerVisibility(atlasStore.options.dereth.layers.landscapeObjects, [
+    toggleLayerVisibility(store.options.dereth.layers.landscapeObjects, [
       layers.tiles.objects_raw,
     ]);
   }
 );
 
 watch(
-  () => atlasStore.options.dereth.layers.developmentRegions,
+  () => store.options.dereth.layers.developmentRegions,
   async (newVal, oldVal) => {
     console.log("impassableTerrain watcher");
 
-    toggleLayerVisibility(atlasStore.options.dereth.layers.developmentRegions, [
+    toggleLayerVisibility(store.options.dereth.layers.developmentRegions, [
       layers.tiles.land_raw,
     ]);
   }
@@ -268,16 +267,13 @@ watch(locationLayers, async (newVal, oldVal) => {
 });
 
 watch(
-  () => atlasStore.selectedLocation,
+  () => store.selectedLocation,
   async (newVal, oldVal) => {
     console.log("selectedLocation watcher");
 
+    layers.features.selectedLocation.clearLayers();
 
-        layers.features.selectedLocation.clearLayers();
-
-    
     if (newVal) {
-        
       console.log("new selectedLocation");
       if (newVal.geometry.type == "Point") {
         if (!locationClicked.value) {
@@ -302,20 +298,18 @@ watch(
 
         layers.features.selectedLocation.addLayer(rect);
 
-        if (newVal.properties.category == 'portal') {
+        if (newVal.properties.category == "portal") {
+          console.log(newVal.properties);
 
-            console.log(newVal.properties);
+          const destLatLng = L.latLng([
+            newVal.properties.destination.coordinates.global.y,
+            newVal.properties.destination.coordinates.global.x,
+          ]);
 
-            const destLatLng = L.latLng([newVal.properties.destination.coordinates.global.y, newVal.properties.destination.coordinates.global.x]);
+          let line = L.polyline([latlng, destLatLng], { color: "purple" });
 
-            let line = L.polyline([latlng, destLatLng], { color: 'purple' });
-
-
-            layers.features.selectedLocation.addLayer(line);
-
+          layers.features.selectedLocation.addLayer(line);
         }
-
-
       } else {
         console.log("Location is a polygon");
         const poly = L.polygon(newVal.geometry.coordinates, {
@@ -337,7 +331,7 @@ watch(
 );
 
 // watch(
-//   () => atlasStore.spawnData,
+//   () => store.spawnData,
 //   async (newVal, oldVal) => {
 //     console.log("handleSpawnData watcher");
 //     if (newVal) {
@@ -347,7 +341,7 @@ watch(
 // );
 
 watch(
-  () => atlasStore.targetedPosition,
+  () => store.targetedPosition,
   async (newVal, oldVal) => {
     console.log("targetedPosition watcher");
 
@@ -395,10 +389,10 @@ const onLocationClick = (event) => {
   console.log("Function: onLocationClick");
 
   locationClicked.value = true;
-  atlasStore.getLocation(event.target.feature.properties.id);
+  store.getLocation(event.target.feature.properties.id);
 
-  atlasStore.targetedPosition = null;
-  atlasStore.searchResults = [];
+  store.targetedPosition = null;
+  store.searchResults = [];
   console.log(event);
 
   const iconSize = event.sourceTarget.options.icon.options.iconSize;
@@ -417,9 +411,9 @@ const onLocationClick = (event) => {
   //     console.log(topRight);
   //const rect = L.rectangle([botLeft, topRight]);
 
-  //atlasStore.selectedLocationId = event.target.feature.properties.id;
+  //store.selectedLocationId = event.target.feature.properties.id;
 
-  //atlasStore.searchQuery = event.target.feature.properties.name;
+  //store.searchQuery = event.target.feature.properties.name;
 };
 
 // const drawRegions = () => {
@@ -499,7 +493,7 @@ const drawLayersDebounced = debounce(() => {
 }, 500);
 
 const handleLandblockGrid = () => {
-  if (atlasStore.options.dereth.landblockGrid) {
+  if (store.options.dereth.landblockGrid) {
     //this.layers.landblockHovered.clearLayers();
 
     layers.grid.landblocks.addTo(map.value);
@@ -711,29 +705,29 @@ const onMapClick = async (event) => {
   const clickInBounds = L.latLngBounds(mapBounds.value).contains(event.latlng);
   mapClicked.value = true;
 
-  if (atlasStore.selectedLocation) {
+  if (store.selectedLocation) {
     // If location currently selected, clear it when map is clicked
-    atlasStore.selectedLocation = null;
-    atlasStore.targetedPosition = null;
-    atlasStore.searchQuery = "";
+    store.selectedLocation = null;
+    store.targetedPosition = null;
+    store.searchQuery = "";
   } else if (
-    atlasStore.targetedPosition &&
-    !atlasStore.options.dereth.landblockGrid
+    store.targetedPosition &&
+    !store.options.dereth.landblockGrid
   ) {
     // ?
-    atlasStore.targetedPosition = null;
-    atlasStore.searchQuery = "";
+    store.targetedPosition = null;
+    store.searchQuery = "";
   } else {
     // ?
     if (clickInBounds) {
       console.log("click in bounds!");
       const clickedPosition = globalToPos(event.latlng.lng, event.latlng.lat);
 
-      await atlasStore.reverseGeocode(
+      await store.reverseGeocode(
         `${clickedPosition.coordinates.global.x},${clickedPosition.coordinates.global.y}`
       );
-      atlasStore.targetedPosition = clickedPosition;
-      atlasStore.searchQuery = clickedPosition.coordinates.radar.formatted;
+      store.targetedPosition = clickedPosition;
+      store.searchQuery = clickedPosition.coordinates.radar.formatted;
     }
   }
 };
@@ -743,7 +737,7 @@ const onMapMoveEnd = async () => {
   console.log(currentZoom.value, "Current zoom: ");
 
   if (!isInitialLoad.value) {
-    //await getVisibleLocations();
+    await getVisibleLocations();
   }
 };
 
@@ -751,9 +745,9 @@ const onMapMoveStart = (event) => {
   console.log("onMapMoveStart");
   console.log(event);
 
-  if (atlasStore.targetedPosition) {
-    atlasStore.targetedPosition = null;
-    atlasStore.searchQuery = "";
+  if (store.targetedPosition) {
+    store.targetedPosition = null;
+    store.searchQuery = "";
   }
 };
 
@@ -770,23 +764,23 @@ const onMapMouseUp = (event) => {
 const onMapMouseMove = (event) => {
   let latlng = event.latlng;
 
-  if (atlasStore.options.dereth.landblockGrid) {
+  if (store.options.dereth.landblockGrid) {
     handleLandblockGridHover(latlng);
   }
 
-  atlasStore.hoveredPosition = globalToPos(event.latlng.lng, event.latlng.lat);
+  store.hoveredPosition = globalToPos(event.latlng.lng, event.latlng.lat);
 };
 
 const onMapZoomStart = async (event) => {
-  //   atlasStore.targetedPosition = null;
-  //   atlasStore.searchQuery = "";
+  //   store.targetedPosition = null;
+  //   store.searchQuery = "";
 };
 
 const onMapZoomEnd = async (event) => {
   currentZoom.value = map.value.getZoom();
   //currentZoom.value = currentZoom;
 
-  if (atlasStore.options.dereth.landblockGrid) {
+  if (store.options.dereth.landblockGrid) {
     if (currentZoom.value >= 7) {
       layers.grid.landcells.addTo(map.value);
     } else {
@@ -809,12 +803,12 @@ const onMapReady = async () => {
   renderLandblockGrid();
   //await getVisibleLocations();
 
-//   const poly = L.polygon(regionCells.geometry.coordinates, {
-//     fillColor: "orange",
-//     fillOpacity: 0.8,
-//     stroke: false,
-//   });
-//   poly.addTo(map.value);
+  //   const poly = L.polygon(regionCells.geometry.coordinates, {
+  //     fillColor: "orange",
+  //     fillOpacity: 0.8,
+  //     stroke: false,
+  //   });
+  //   poly.addTo(map.value);
 
   // regionCells.features.forEach((feature) => {
 
@@ -839,14 +833,14 @@ const onMapReady = async () => {
   //     poly.addTo(map.value);
   //   });
 
-  atlasStore.derethMapLoaded = true;
+  store.derethMapLoaded = true;
 };
 
 const getVisibleLocations = async () => {
   const currentZoom = map.value.getZoom();
   const currentBoundsPad = map.value.getBounds().pad(0.25);
   const bbox = currentBoundsPad.toBBoxString();
-  return atlasStore.getLocations(currentZoom, bbox);
+  return store.getLocations(currentZoom, bbox);
 };
 
 const onDatabaseUpdate = () => {
@@ -1001,7 +995,7 @@ const handleLandblockGridHover = (latlng) => {
 
   let cursorInBounds = L.latLngBounds(mapBounds.value).contains(latlng);
 
-  if (atlasStore.options.dereth.landblockGrid && cursorInBounds && position) {
+  if (store.options.dereth.landblockGrid && cursorInBounds && position) {
     layers.features.landblockHovered.clearLayers();
 
     let lbRect = createLandblockRect(position);
@@ -1021,14 +1015,14 @@ const handleLandblockGridHover = (latlng) => {
     cellRect.openTooltip();
   }
 
-  if (!cursorInBounds || !atlasStore.options.dereth.landblockGrid) {
+  if (!cursorInBounds || !store.options.dereth.landblockGrid) {
     layers.features.landblockHovered.clearLayers();
   }
 };
 
 // const handleSpawnData = () => {
 //   console.log("handleSpawnData");
-//   const data = atlasStore.spawnData;
+//   const data = store.spawnData;
 
 //   layers.features.spawns.clearLayers();
 //   let styleObj = {
@@ -1066,9 +1060,6 @@ onMounted(() => {
 </script>
 
 <style scoped>
-
-@import url("leaflet/dist/leaflet.css");
-
 #dereth-map {
   height: 100%;
   z-index: 50;

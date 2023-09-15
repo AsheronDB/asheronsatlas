@@ -1,0 +1,769 @@
+[
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                47,
+                -90.3
+            ]
+        },
+        "properties": {
+            "id": 307233118789670,
+            "name": "Ahurenga",
+            "type": "outpost"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -31.2,
+                13.7
+            ]
+        },
+        "properties": {
+            "id": 570672500293901,
+            "name": "Al-Arqas",
+            "type": "town",
+            "sub_type": "gharundim"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.4,
+                4.8
+            ]
+        },
+        "properties": {
+            "id": 396708849406766,
+            "name": "Al-Jalima",
+            "type": "town",
+            "sub_type": "gharundim"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                33.6,
+                56.8
+            ]
+        },
+        "properties": {
+            "id": 365748398503772,
+            "name": "Arwic",
+            "type": "town",
+            "sub_type": "aluvian"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -60,
+                -88
+            ]
+        },
+        "properties": {
+            "name": "Ayan Baqur",
+            "type": "town",
+            "sub_type": "gharundim",
+            "id": 477671386004094
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -49.3,
+                62.9
+            ]
+        },
+        "properties": {
+            "name": "Baishi",
+            "type": "town",
+            "sub_type": "sho",
+            "id": 929070891646810
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                76,
+                -49.1
+            ]
+        },
+        "properties": {
+            "name": "Beach Fort",
+            "type": "outpost",
+            "id": 238186084080462
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                66.5,
+                50
+            ]
+        },
+        "properties": {
+            "name": "Bandit Castle",
+            "type": "outpost",
+            "id": 178290554213380
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                39.4,
+                -75.4
+            ]
+        },
+        "properties": {
+            "name": "Bluespire",
+            "type": "outpost",
+            "id": 974115694638548
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -87.5,
+                -67.1
+            ]
+        },
+        "properties": {
+            "name": "Candeth Keep",
+            "type": "outpost",
+            "id": 778149898261922
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                64.9,
+                13.5
+            ]
+        },
+        "properties": {
+            "name": "Crater Lake Village",
+            "type": "outpost",
+            "id": 857835297942410
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                25.6,
+                49.2
+            ]
+        },
+        "properties": {
+            "name": "Cragstone",
+            "type": "town",
+            "sub_type": "aluvian",
+            "id": 959741318370837
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                23.4,
+                -28.7
+            ]
+        },
+        "properties": {
+            "name": "Danby's Outpost",
+            "type": "outpost",
+            "id": 751244275838506
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -8.1,
+                73
+            ]
+        },
+        "properties": {
+            "name": "Dryreach",
+            "type": "town",
+            "sub_type": "aluvian",
+            "id": 938240811357162
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                17.5,
+                63.4
+            ]
+        },
+        "properties": {
+            "name": "Eastham",
+            "type": "town",
+            "sub_type": "aluvian",
+            "id": 200726958162235
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                95.9,
+                -56.8
+            ]
+        },
+        "properties": {
+            "name": "Fiun Outpost",
+            "type": "outpost",
+            "id": 741418342784211
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                1.5,
+                -71.8
+            ]
+        },
+        "properties": {
+            "name": "Fort Tethana",
+            "type": "town",
+            "sub_type": "aluvian",
+            "id": 142765746961379
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                29.7,
+                26.5
+            ]
+        },
+        "properties": {
+            "name": "Glenden Wood",
+            "type": "town",
+            "sub_type": "aluvian",
+            "id": 165368079360627
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                42.9,
+                -66.9
+            ]
+        },
+        "properties": {
+            "name": "Greenspire",
+            "type": "outpost",
+            "id": 975799490727018
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -38.9,
+                82.6
+            ]
+        },
+        "properties": {
+            "name": "Hebian-To",
+            "type": "town",
+            "sub_type": "sho",
+            "id": 252419612153168
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                42.3,
+                33.3
+            ]
+        },
+        "properties": {
+            "name": "Holtburg",
+            "type": "town",
+            "sub_type": "aluvian",
+            "id": 207718350926461
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -83.5,
+                47.6
+            ]
+        },
+        "properties": {
+            "name": "Kara",
+            "type": "town",
+            "sub_type": "sho",
+            "id": 859600405264904
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -47.6,
+                24.7
+            ]
+        },
+        "properties": {
+            "name": "Khayyaban",
+            "type": "town",
+            "sub_type": "gharundim",
+            "id": 610618604160234
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -74.3,
+                84.6
+            ]
+        },
+        "properties": {
+            "name": "Kryst",
+            "type": "town",
+            "sub_type": "sho",
+            "id": 806449920718786
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -54.5,
+                73.1
+            ]
+        },
+        "properties": {
+            "name": "Lin",
+            "type": "town",
+            "sub_type": "sho",
+            "id": 577811167356650
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -77.8,
+                28
+            ]
+        },
+        "properties": {
+            "name": "Linvak Tukal",
+            "type": "outpost",
+            "id": 935400136870889
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                1.1,
+                51.7
+            ]
+        },
+        "properties": {
+            "name": "Lytelthorpe",
+            "type": "town",
+            "sub_type": "aluvian",
+            "id": 330534703055555
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -73.8,
+                92.3
+            ]
+        },
+        "properties": {
+            "name": "MacNiall's Freehold",
+            "type": "town",
+            "sub_type": "sho",
+            "id": 245593043443051
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -61.9,
+                82.5
+            ]
+        },
+        "properties": {
+            "name": "Mayoi",
+            "type": "town",
+            "sub_type": "sho",
+            "id": 414367255480682
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -52.5,
+                82.1
+            ]
+        },
+        "properties": {
+            "name": "Nanto",
+            "type": "town",
+            "sub_type": "sho",
+            "id": 871323347395798
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                69.7,
+                17.6
+            ]
+        },
+        "properties": {
+            "name": "Neydisa Castle",
+            "type": "outpost",
+            "id": 437404606379826
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                2.3,
+                95.4
+            ]
+        },
+        "properties": {
+            "name": "Oolutanga's Refuge",
+            "type": "outpost",
+            "id": 442525912333910
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                44.5,
+                -43.1
+            ]
+        },
+        "properties": {
+            "name": "Plateau Village",
+            "type": "outpost",
+            "id": 181455057474504
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -74.6,
+                19.6
+            ]
+        },
+        "properties": {
+            "name": "Qalaba'r",
+            "type": "town",
+            "sub_type": "gharundim",
+            "id": 928565759080912
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                40.8,
+                -83.1
+            ]
+        },
+        "properties": {
+            "name": "Redspire",
+            "type": "outpost",
+            "id": 104644834090719
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.8,
+                59.3
+            ]
+        },
+        "properties": {
+            "name": "Rithwic",
+            "type": "town",
+            "sub_type": "aluvian",
+            "id": 865323946518511
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.2,
+                19
+            ]
+        },
+        "properties": {
+            "name": "Samsur",
+            "type": "town",
+            "sub_type": "gharundim",
+            "id": 969302566950163
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                72.1,
+                -60.9
+            ]
+        },
+        "properties": {
+            "name": "Sanamar",
+            "type": "town",
+            "sub_type": "viamontian",
+            "id": 560205555551519
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -28.7,
+                59.3
+            ]
+        },
+        "properties": {
+            "name": "Sawato",
+            "type": "town",
+            "sub_type": "sho",
+            "id": 817129965923312
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -33.5,
+                72.8
+            ]
+        },
+        "properties": {
+            "name": "Shoushi",
+            "type": "town",
+            "sub_type": "sho",
+            "id": 681801811578718
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                87.4,
+                -70.5
+            ]
+        },
+        "properties": {
+            "name": "Silyun",
+            "type": "outpost",
+            "id": 617302202187455
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                68.7,
+                -21.8
+            ]
+        },
+        "properties": {
+            "name": "Stonehold",
+            "type": "outpost",
+            "id": 867185477141428
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                44.2,
+                -78
+            ]
+        },
+        "properties": {
+            "name": "Timaru",
+            "type": "outpost",
+            "id": 880523530399145
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -25.2,
+                28.3
+            ]
+        },
+        "properties": {
+            "name": "Uziz",
+            "type": "town",
+            "sub_type": "gharundim",
+            "id": 550127621263226
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -62,
+                -51.4
+            ]
+        },
+        "properties": {
+            "name": "Wai Jhou",
+            "type": "town",
+            "sub_type": "sho",
+            "id": 315855103676049
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -41.9,
+                16.1
+            ]
+        },
+        "properties": {
+            "name": "Xarabydun",
+            "type": "town",
+            "sub_type": "gharundim",
+            "id": 712331267324113
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -12.1,
+                42.4
+            ]
+        },
+        "properties": {
+            "name": "New Yanshi",
+            "type": "town",
+            "sub_type": "sho",
+            "id": 191757891510191
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -21.6,
+                -1.7
+            ]
+        },
+        "properties": {
+            "name": "Yaraq",
+            "type": "town",
+            "sub_type": "gharundim",
+            "id": 121700003878038
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                13.5,
+                0.7
+            ]
+        },
+        "properties": {
+            "name": "Zaikhal",
+            "type": "town",
+            "sub_type": "gharundim",
+            "id": 874948951752183
+        }
+    }
+]

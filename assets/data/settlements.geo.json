@@ -1,0 +1,4364 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dire's Edge",
+        "settlementWcid": 13098,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11434.971428571429, 30020.571428571428]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Adams' Beach",
+        "settlementWcid": 12466,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11851.885714285714, 38319.08571428571]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Westshore Cottages",
+        "settlementWcid": 14676,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11997.545454545454, 39256.09090909091]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rivermouth Villas",
+        "settlementWcid": 13123,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [12386, 36768.28571428572] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Peril's Edge Cottages",
+        "settlementWcid": 15680,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12574.074074074075, 30049.62962962963]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caerlin Cottages",
+        "settlementWcid": 15148,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12573.951219512195, 37727.41463414634]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sliver-of-BlueCottages",
+        "settlementWcid": 15190,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12764.470588235294, 32741.50588235294]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wilomine Villas",
+        "settlementWcid": 15686,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12761.123595505618, 33508.7191011236]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Last-Stop-Before-Dires Villas",
+        "settlementWcid": 15169,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13339.024390243903, 30060.585365853658]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lady Maila Estates",
+        "settlementWcid": 15168,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13341.658536585366, 42337.756097560974]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hero's Vale",
+        "settlementWcid": 15676,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13531.594936708861, 31769.164556962027]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Auralla Settlement",
+        "settlementWcid": 14254,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13539.79746835443, 36974.73417721519]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fadsahil Settlement",
+        "settlementWcid": 14630,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13917.42857142857, 36190.857142857145]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Woodshore Cottages",
+        "settlementWcid": 12567,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13930.736842105263, 43104]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Desolation Beach",
+        "settlementWcid": 12486,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14116.767123287671, 44229.20547945205]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mirthless Dale",
+        "settlementWcid": 15164,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [14304, 30048] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brazenn Domain",
+        "settlementWcid": 15146,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [14305.8, 42145.2] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pine Deep",
+        "settlementWcid": 14656,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14494.698795180722, 38496.72289156626]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Axefall Glen",
+        "settlementWcid": 15666,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14676.837209302326, 31773.767441860466]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rahvard Square",
+        "settlementWcid": 14659,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14888.756756756757, 36967.78378378379]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Empyrean Shore Villas",
+        "settlementWcid": 14627,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14974.378378378378, 44461.13513513513]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plateau Hollow Settlement",
+        "settlementWcid": 12538,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15068.703296703297, 33118.81318681319]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rhynntal Cottages",
+        "settlementWcid": 14661,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [15036, 35789.01818181818] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Merak",
+        "settlementWcid": 15174,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [15647.4, 30818.1] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Adept's Domain",
+        "settlementWcid": 15662,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15647.25925925926, 31390.666666666668]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yee Villas",
+        "settlementWcid": 14678,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15835.547169811322, 33036]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rytheran Dale",
+        "settlementWcid": 15681,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [15833.7, 35424.6] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lithaenean Cottages",
+        "settlementWcid": 12514,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15873.714285714286, 37193.142857142855]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sonel",
+        "settlementWcid": 12547,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [15833.1, 42896.1] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stormtree Villas",
+        "settlementWcid": 15194,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16033.67441860465, 38020.604651162794]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sweet Maple Cottages",
+        "settlementWcid": 15685,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16111.098591549297, 43867.43661971831]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hopevale",
+        "settlementWcid": 19148,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16127.714285714286, 32348.85714285714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Inquisitor's Dale Cottages",
+        "settlementWcid": 15162,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16418.51851851852, 30815.25925925926]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shield of Valor Cottages",
+        "settlementWcid": 15683,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16416, 31585.170731707316]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stone Scythe Stronghold",
+        "settlementWcid": 19161,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16608.324324324323, 33105.40540540541]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Two Hills Cottages",
+        "settlementWcid": 19163,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16614.38961038961, 33882.545454545456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Azaroth Cottages",
+        "settlementWcid": 15145,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16989.113924050635, 44639.84810126582]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rending Talon Cottages",
+        "settlementWcid": 19155,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17371.60975609756, 33883.90243902439]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tyrrin Cottages",
+        "settlementWcid": 19164,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17379.11111111111, 34658.81481481482]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tia-Leh Homestead",
+        "settlementWcid": 15198,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17569.590361445782, 31095.180722891568]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wolfenvale",
+        "settlementWcid": 15201,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17559.25925925926, 31977.925925925927]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Northfire Estates",
+        "settlementWcid": 15180,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17756.88888888889, 44446.37037037037]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Asandra Cottages",
+        "settlementWcid": 15142,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17954.682352941178, 38114.4]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Firesong Cottages",
+        "settlementWcid": 19145,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18145.62962962963, 33696.148148148146]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dame Tolani Villas",
+        "settlementWcid": 19140,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18143.042944785277, 34763.705521472395]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aloria",
+        "settlementWcid": 15140,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18142.76923076923, 36572.61538461538]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tarn Vinara Villas",
+        "settlementWcid": 14673,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18333.714285714286, 31105.85714285714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nalib Cavana Settlement",
+        "settlementWcid": 15177,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18335.384615384617, 31964.30769230769]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Danby",
+        "settlementWcid": 13101,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18710.54117647059, 30431.576470588236]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Deepvale Cottages",
+        "settlementWcid": 15671,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [18717.9, 33123.3] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Verena",
+        "settlementWcid": 14674,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18712.444444444445, 38881.62962962963]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harmonious Blade Cottages",
+        "settlementWcid": 15675,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19102.243902439026, 31202.048780487807]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Direvale Villas",
+        "settlementWcid": 15152,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19098.976744186046, 32360.372093023256]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Majestic Saddle Cottages",
+        "settlementWcid": 19152,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [19090.2, 33887.7] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thyrinn Cant Cottages",
+        "settlementWcid": 15197,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19391.337423312885, 44064.22085889571]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Regina Cottages",
+        "settlementWcid": 15184,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19683.703703703704, 37534.666666666664]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fearnot Valley Cottages",
+        "settlementWcid": 14631,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19869.391304347828, 30143.180124223603]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hidden Valley",
+        "settlementWcid": 14635,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19892.347826086956, 38680.17391304348]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sanai",
+        "settlementWcid": 12541,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20062.133333333335, 29092.533333333333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Embara",
+        "settlementWcid": 14625,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20062.698795180724, 31007.566265060243]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rethux Vale",
+        "settlementWcid": 15185,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20062.243902439026, 31773.658536585364]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nidal-Taraq Villas",
+        "settlementWcid": 15678,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20258.18181818182, 28125.81818181818]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lightbringer Dale Cottages",
+        "settlementWcid": 14643,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20254.133333333335, 44065.86666666667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ice's Edge Cottages",
+        "settlementWcid": 15161,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20437.185185185186, 39845.48148148148]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dires' Door Estates",
+        "settlementWcid": 13097,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20444.262295081968, 43296.59016393442]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shore Vista Cottages",
+        "settlementWcid": 15189,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20636.20253164557, 27361.367088607596]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Morntide Ascent Cottages",
+        "settlementWcid": 19153,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [20832.6, 32160] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Morntide Settlement",
+        "settlementWcid": 15157,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20835.189873417723, 32926.93670886076]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seaview Ridge Cottages",
+        "settlementWcid": 13125,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21220, 45584.307692307695]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Loredane Villas",
+        "settlementWcid": 14648,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21410.594594594593, 26775.567567567567]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gharu'n Victory Villas",
+        "settlementWcid": 15674,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21401.866666666665, 28705.866666666665]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Morntide Villas",
+        "settlementWcid": 14623,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21430.867924528302, 33685.811320754714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sanam Batal Villas",
+        "settlementWcid": 19157,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21598.829268292684, 31961.853658536584]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Genem Causland",
+        "settlementWcid": 15158,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21590.153846153848, 32744.923076923078]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lord Cambarth Villas",
+        "settlementWcid": 14647,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [21780, 43871.65714285714] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Zaikhal Freehold",
+        "settlementWcid": 14677,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22162.153846153848, 28515.69230769231]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amarand Villas",
+        "settlementWcid": 19138,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22176.659340659342, 33692.43956043956]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Desert Boundary Cottages",
+        "settlementWcid": 14617,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22366.863157894735, 26206.863157894735]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Darasa Villas",
+        "settlementWcid": 19141,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22456.43312101911, 32924.4076433121]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Snowy Valley",
+        "settlementWcid": 13130,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [22344, 45024.96] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sharvale",
+        "settlementWcid": 13126,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22941.882352941175, 28032]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tiofor Deeps",
+        "settlementWcid": 12560,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [23133.53846153846, 34264] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Northwater Cottages",
+        "settlementWcid": 13117,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23128.048192771083, 46934.60240963855]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bay of Sands",
+        "settlementWcid": 12476,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23321.14285714286, 24865.714285714286]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mimiana Villas",
+        "settlementWcid": 15176,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23518.18181818182, 30447.272727272728]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blazing Wand Villas",
+        "settlementWcid": 15668,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23429.657142857144, 31195.542857142857]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Anadil",
+        "settlementWcid": 15141,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23525.560975609755, 41178.14634146341]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Yaraq Villas",
+        "settlementWcid": 13118,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23868, 20847.622641509435]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al-Arqis Cottages",
+        "settlementWcid": 14610,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23904.74074074074, 21601.333333333332]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aqalah",
+        "settlementWcid": 12471,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23907.24705882353, 22659.95294117647]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Far Horizon Cottages",
+        "settlementWcid": 15673,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23903.848101265823, 46753.36708860759]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Midsong Cottages",
+        "settlementWcid": 14272,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24107.35135135135, 24293.837837837837]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wisp Lake Cottages",
+        "settlementWcid": 13141,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [24061.6, 44637.6] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bright Blade Cottages",
+        "settlementWcid": 15147,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24289.53846153846, 30621.53846153846]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mountain Retreat Cottages",
+        "settlementWcid": 15677,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [24297.76, 38486.88] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake NemuelSettlement",
+        "settlementWcid": 12510,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24483.157894736843, 39484]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sand Shallow Cottages",
+        "settlementWcid": 15187,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24678.626865671642, 21401.731343283584]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Helms Villas",
+        "settlementWcid": 14264,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24664.363636363636, 29866.18181818182]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reviled Maw Cottages",
+        "settlementWcid": 19156,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24775.881656804733, 32735.36094674556]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lanadryll Cottages",
+        "settlementWcid": 19151,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24668.905660377357, 33607.16981132075]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stone Triad Dell",
+        "settlementWcid": 13135,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24677.753424657534, 43287.28767123288]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Yaraq Cottages",
+        "settlementWcid": 12555,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24860.470588235294, 18139.90588235294]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Midhill Cottages",
+        "settlementWcid": 15175,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24863.277108433736, 44830.698795180724]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Defiant Prey Cottages",
+        "settlementWcid": 19142,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25053.714285714286, 38310]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Land Bridge Villas",
+        "settlementWcid": 14642,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25238.057142857142, 3547.2]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Windrune Cottages",
+        "settlementWcid": 15687,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25256.571428571428, 39455.53246753247]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Return of Mumiyah Cottages",
+        "settlementWcid": 15186,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25533.906976744187, 22946.372093023256]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Suntik",
+        "settlementWcid": 12528,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25450.068965517243, 28912.41379310345]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tusker Notch",
+        "settlementWcid": 19162,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25435.058823529413, 33121.83529411765]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Charnhold",
+        "settlementWcid": 19139,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25440.722891566264, 33889.301204819276]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ijaniya",
+        "settlementWcid": 12504,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25613.185185185186, 16599.85185185185]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arrak",
+        "settlementWcid": 14253,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25741.174825174825, 22170.377622377622]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Durglen",
+        "settlementWcid": 15155,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25736.714285714286, 34655.28571428572]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Pass Hollow Cottages",
+        "settlementWcid": 19154,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25633.037037037036, 37724.59259259259]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Four Towers Settlement",
+        "settlementWcid": 12499,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25828.941176470587, 27356.470588235294]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ianna",
+        "settlementWcid": 14636,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25810.85714285714, 37002.857142857145]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tharesun",
+        "settlementWcid": 15195,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25826.511627906977, 46375.813953488374]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maitland",
+        "settlementWcid": 12517,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [26012, 30630] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frosty Dale Cottages",
+        "settlementWcid": 13106,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26026.76923076923, 43088.92307692308]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Point Tremblant",
+        "settlementWcid": 14658,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26216, 47526.857142857145]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stonerune Cottages",
+        "settlementWcid": 19160,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26397.81818181818, 38685.818181818184]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shaky Ledge Cottages",
+        "settlementWcid": 19159,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26428.25806451613, 39457.16129032258]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pillars-on-the-Sea Cottages",
+        "settlementWcid": 14277,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26586.85714285714, 13922.57142857143]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jackcat Canyon",
+        "settlementWcid": 14267,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [26587.8, 24481.2] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Majestic Hill Cottages",
+        "settlementWcid": 12518,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26604.685714285715, 31956.342857142856]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al-Kasan Settlement",
+        "settlementWcid": 12470,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26770.177215189873, 16414.632911392404]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bleached Skull Wastes Settlement",
+        "settlementWcid": 14613,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26783.29411764706, 21025.270588235293]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Celcynd Cottages",
+        "settlementWcid": 14616,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [26788.5, 46563.6] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wi Badlands Settlement",
+        "settlementWcid": 12565,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [26884.65, 18336.6] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alfreth Ridge Cottages",
+        "settlementWcid": 14251,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26981.01265822785, 29294.73417721519]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dovetail Valley Villas",
+        "settlementWcid": 15153,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [27068.32, 30242.88] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Firedew",
+        "settlementWcid": 14632,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26970.211764705884, 35617.83529411765]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Nesortania",
+        "settlementWcid": 15179,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26981.684210526317, 37441.89473684211]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Djinaya Wind Cottages",
+        "settlementWcid": 14621,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27169.01204819277, 19105.01204819277]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Naqut Dreams Villas",
+        "settlementWcid": 13113,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27171.714285714286, 22176]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greenvale Settlement",
+        "settlementWcid": 13107,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27168.674157303372, 43681.213483146064]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Serpent Hills Settlement",
+        "settlementWcid": 12544,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27358.758620689656, 12380.827586206897]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Desert Vanguard Cottages",
+        "settlementWcid": 14619,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27358.962962962964, 14018.222222222223]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Musansayn",
+        "settlementWcid": 12525,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [27553.8, 25432.5] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Artifice Cottages",
+        "settlementWcid": 15665,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27554.842105263157, 4136.210526315789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Desert Mirage Cottages",
+        "settlementWcid": 14618,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27849.333333333332, 20829.925925925927]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Whispering Pines Cottages",
+        "settlementWcid": 12564,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [27704.25, 32727.375] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qalaba'r Seaside Villas",
+        "settlementWcid": 13120,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [27937.263157894737, 8154] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ebbing Tide Villas",
+        "settlementWcid": 19143,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27953.37062937063, 9806.181818181818]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al-Nosaj",
+        "settlementWcid": 14611,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27927.25925925926, 21596.296296296296]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mistdweller Villas",
+        "settlementWcid": 14652,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27927.076923076922, 31777.846153846152]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pine Hillock Settlement",
+        "settlementWcid": 14657,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27927.945205479453, 35406.739726027394]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pavanne Vale Freehold",
+        "settlementWcid": 12537,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27923.323943661973, 45414.92957746479]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mahara Cottages",
+        "settlementWcid": 15171,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28130.048780487807, 11425.756097560976]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arqasanti",
+        "settlementWcid": 12474,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28122.222222222223, 18524.296296296296]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hamud Cottages",
+        "settlementWcid": 14633,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28134.418604651164, 19290.418604651164]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Samsur Butte Cottages",
+        "settlementWcid": 12540,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28126.85714285714, 22935.714285714286]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Soltan Villas",
+        "settlementWcid": 15191,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28128.45569620253, 30431.54430379747]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bucolic Villas",
+        "settlementWcid": 13095,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28162.736842105263, 34468.42105263158]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monument Sands Settlement",
+        "settlementWcid": 12521,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28319.85542168675, 15453.253012048193]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stone Scar Settlement",
+        "settlementWcid": 14285,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28319.414634146342, 25634.048780487807]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unified Heart Villas",
+        "settlementWcid": 19165,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28315.90588235294, 27735.38823529412]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stormbrow",
+        "settlementWcid": 14672,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [28526.88, 3926.56] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simda'r Villas",
+        "settlementWcid": 13128,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [28512.8, 4865.2] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al-Mar Oasis",
+        "settlementWcid": 15139,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [28511.7, 13152.6] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Highland Manors",
+        "settlementWcid": 13108,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28509.51724137931, 39661.65517241379]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sand Kings Cottages",
+        "settlementWcid": 14663,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28706.842105263157, 21207.473684210527]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Al-Jalima Villas",
+        "settlementWcid": 15156,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28708.18604651163, 26396.93023255814]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Howling Wolf Villas",
+        "settlementWcid": 15160,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28708.296296296296, 31388.88888888889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Villalabar",
+        "settlementWcid": 14289,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [28898, 9888] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al-Hatar Settlement",
+        "settlementWcid": 12469,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28791.71612903226, 16222.064516129032]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dry Bone Manors",
+        "settlementWcid": 13099,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28900.814371257486, 17271.305389221558]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ahr-Zona",
+        "settlementWcid": 15138,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28991.49090909091, 19293.01818181818]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eaves of Tiofor Settlement",
+        "settlementWcid": 12494,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [28890.85714285714, 32342] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Woodsbane Cottages",
+        "settlementWcid": 12566,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [28900, 35044.69565217391] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bellig Mesa Cottages",
+        "settlementWcid": 14612,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29089.835294117645, 27928.517647058823]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Songview",
+        "settlementWcid": 15684,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29088.29268292683, 39074.634146341465]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dunes End Cottages",
+        "settlementWcid": 12488,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29275.058823529413, 13149.6]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prosper River Headwaters",
+        "settlementWcid": 12539,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29276.123076923075, 38116.24615384615]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Avatania Cottages",
+        "settlementWcid": 15144,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29469.317647058822, 10854.070588235294]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thasali Cottages",
+        "settlementWcid": 15196,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29471.703703703704, 17467.555555555555]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nal Wadi Cottages",
+        "settlementWcid": 14275,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29376.934131736525, 25631.353293413173]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qalabar Oasis Settlement",
+        "settlementWcid": 13119,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29660.629213483146, 8541.977528089888]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Djebel al-Nar Cottages",
+        "settlementWcid": 14620,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29666.048780487807, 20640.585365853658]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stone Face Oasis Villas",
+        "settlementWcid": 14670,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29653.945945945947, 24856.54054054054]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Uziz Settlement",
+        "settlementWcid": 12563,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29852.3595505618, 18326.696629213482]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Janaa Ridge Settlement",
+        "settlementWcid": 12507,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [29871.2, 22751.84] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stonebend Cottages",
+        "settlementWcid": 14669,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29854.698795180724, 27931.22891566265]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Redrock Cottages",
+        "settlementWcid": 14660,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29849.846153846152, 28889.846153846152]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zabool Overlook Settlement",
+        "settlementWcid": 12571,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29861.14285714286, 29852.967032967033]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mountain Ridge Abodes",
+        "settlementWcid": 12524,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29863.304347826088, 32729.739130434784]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sands-of-the-Skull Cottages",
+        "settlementWcid": 14664,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30052.1797752809, 14876.629213483146]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yushad Ridge Cottages",
+        "settlementWcid": 12570,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30044.275862068964, 21597.931034482757]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dillo Butte Settlement",
+        "settlementWcid": 14259,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30041.36842105263, 27160.736842105263]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neydisa Village",
+        "settlementWcid": 12529,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29872.340425531915, 41558.55319148936]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brigand Sands Cottages",
+        "settlementWcid": 13094,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30434.666666666668, 9908.333333333334]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cactus Acres",
+        "settlementWcid": 14255,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30432.837209302324, 22362.13953488372]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greenswath",
+        "settlementWcid": 14262,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30445.690140845072, 26203.098591549297]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bhah Dhah Villas",
+        "settlementWcid": 13093,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30823.565217391304, 14499.652173913044]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vulture's Eye Villas",
+        "settlementWcid": 14675,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30818.4, 21312.50909090909]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palm-of-Stone Villas",
+        "settlementWcid": 15182,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30807.428571428572, 27253.50857142857]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maythen Geroyu Villas",
+        "settlementWcid": 15173,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30798.7012987013, 28131.272727272728]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lost Realm Cottages",
+        "settlementWcid": 14649,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30814.786516853932, 29087.325842696628]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Auroch Pasture Estates",
+        "settlementWcid": 13131,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [30821.6, 30042.4] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glenden Hills North Settlement",
+        "settlementWcid": 12502,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30813.5421686747, 32918.89156626506]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patron's Honor Cottages",
+        "settlementWcid": 15679,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31006.829268292684, 42526.53658536585]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Khayyaban Cottages",
+        "settlementWcid": 12551,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31193.066666666666, 11811.2]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Drytree Settlement",
+        "settlementWcid": 15154,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31108.092485549132, 22368.901734104045]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ispan Hill",
+        "settlementWcid": 14266,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31191.891891891893, 37143.56756756757]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Esper Valley",
+        "settlementWcid": 12489,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [31198.5, 41763.25] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lilyglen Cottages",
+        "settlementWcid": 12513,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31386.76923076923, 35993.53846153846]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dagger Vale",
+        "settlementWcid": 15149,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [31392, 44448] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Uzis Villas",
+        "settlementWcid": 14668,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31587.24705882353, 16225.270588235295]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Uziz Settlement",
+        "settlementWcid": 12534,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31604.842105263157, 19279.263157894737]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Iceea Hills Estates",
+        "settlementWcid": 13109,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31590.272727272728, 30628.636363636364]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glystaene Cottages",
+        "settlementWcid": 15159,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31585.170731707316, 39840]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Celdiseth's Beach Settlement",
+        "settlementWcid": 12483,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31582.666666666668, 45207.25925925926]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mattekar Slopes Cottages",
+        "settlementWcid": 15172,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31783.69230769231, 7960.923076923077]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Charbone Ridge",
+        "settlementWcid": 13096,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31777.756097560974, 24483.80487804878]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sand's Edge",
+        "settlementWcid": 13124,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31768.41379310345, 25826.068965517243]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hermit Hill Cottages",
+        "settlementWcid": 14634,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31772.88888888889, 27942.37037037037]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brigands Bay Settlement",
+        "settlementWcid": 12479,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [31970.666666666668, 2981] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Linvak Tukal Foothills Settlement",
+        "settlementWcid": 14644,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31966.243902439026, 4701.658536585366]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glenden Hills East Settlement",
+        "settlementWcid": 12501,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [31968, 32160] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Colier",
+        "settlementWcid": 12527,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31967.70731707317, 39065.560975609755]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gredaline Villas",
+        "settlementWcid": 19146,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [32150.1, 10064.7] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plainsview Cottages",
+        "settlementWcid": 14278,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32155.909090909092, 10850.727272727272]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Demonsbane Cottages",
+        "settlementWcid": 15672,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32256.957055214723, 26593.398773006134]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ardent Realm",
+        "settlementWcid": 15663,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32357.684210526317, 14882.21052631579]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Narziz Cottages",
+        "settlementWcid": 12526,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32345.023255813954, 19863.627906976744]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yinar",
+        "settlementWcid": 14293,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32639.240506329115, 22178.430379746835]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Devana",
+        "settlementWcid": 15151,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32544.578313253012, 23995.518072289156]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Solstice Hill",
+        "settlementWcid": 14666,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32546.117647058825, 29287.764705882353]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ro-Nan",
+        "settlementWcid": 14279,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32928.255319148935, 9314.04255319149]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ikama Cottages",
+        "settlementWcid": 14637,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32928.42352941177, 10078.729411764705]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Erevana Villas",
+        "settlementWcid": 14629,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33028.33734939759, 10844.530120481928]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sonpay",
+        "settlementWcid": 15192,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32923.48051948052, 13908.935064935065]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mountain Keep Cottages",
+        "settlementWcid": 12523,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [32922.51851851852, 36672] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zatara",
+        "settlementWcid": 14294,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32922.976744186046, 42719.441860465115]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Northreach",
+        "settlementWcid": 14653,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32906.74285714285, 44439.42857142857]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kanasa",
+        "settlementWcid": 14270,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33121.71428571428, 12191.42857142857]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shield of Ispar Villas",
+        "settlementWcid": 15682,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33118.74846625767, 14968.41717791411]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Adventurer's Haven Cottages",
+        "settlementWcid": 12467,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33125.3023255814, 24862.325581395347]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tinkelo Hold Villas",
+        "settlementWcid": 15199,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33124.857142857145, 28696]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taralla",
+        "settlementWcid": 14286,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33115.40740740741, 31972.296296296296]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southern Park",
+        "settlementWcid": 14667,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33314.64935064935, 6245.766233766234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arida Butte",
+        "settlementWcid": 12473,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33311.41463414634, 18919.90243902439]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Broken Sword Bethel Settlement",
+        "settlementWcid": 12481,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33310.98795180723, 20437.156626506025]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Enchanter's Meadow",
+        "settlementWcid": 13103,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33306.77647058824, 25824.988235294117]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "King Pwyll Square",
+        "settlementWcid": 14639,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33323.132530120485, 26779.518072289156]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bretslef Cottages",
+        "settlementWcid": 14615,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33309.5421686747, 40805.927710843374]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scimitar Lake Cottages",
+        "settlementWcid": 15188,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33506.04878048781, 3744.5853658536585]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Forgotten Hills",
+        "settlementWcid": 12498,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33503.68421052631, 27928.105263157893]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baron's Domain",
+        "settlementWcid": 15667,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33501.01818181818, 39928.36363636364]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taklihuan Settlement",
+        "settlementWcid": 12559,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33991.54966887417, 15269.165562913908]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meerthus Square",
+        "settlementWcid": 14651,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33881.62962962963, 29279.25925925926]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spire Hills Settlement",
+        "settlementWcid": 12556,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [34069.2, 11425.5] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oboro",
+        "settlementWcid": 12536,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34079.096774193546, 12574.838709677419]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Asbel Domain",
+        "settlementWcid": 15143,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34076.88888888889, 24189.777777777777]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Norstead",
+        "settlementWcid": 14290,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [34085.25, 42517.5] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kuyiza",
+        "settlementWcid": 15167,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34268.20253164557, 15838.32911392405]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Yanshi Namoon",
+        "settlementWcid": 14291,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34273.590361445786, 19197.397590361445]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Faranar Foothills",
+        "settlementWcid": 12496,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34274.831460674155, 20829.16853932584]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Osric Cottages",
+        "settlementWcid": 15181,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [34272.6, 25828.2] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Darawyll Village",
+        "settlementWcid": 15150,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34271.649122807015, 26885.684210526317]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Evensong Settlement",
+        "settlementWcid": 12495,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34263.56756756757, 34474.7027027027]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Holtburg Villas",
+        "settlementWcid": 13138,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34264.602739726026, 35614.849315068495]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Colier View Hill",
+        "settlementWcid": 15670,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34273.301204819276, 38687.27710843374]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alvador",
+        "settlementWcid": 14252,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34270.28571428572, 40709.88819875776]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kelnen Village",
+        "settlementWcid": 15166,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34472.611764705885, 13336.235294117647]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Liang Chi Settlement",
+        "settlementWcid": 12512,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34446.56603773585, 22377.283018867925]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bleak Valley",
+        "settlementWcid": 14614,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34461.95121951219, 37343.41463414634]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake Thrasyl Cottages",
+        "settlementWcid": 14641,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34650.49411764706, 7196.470588235294]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shara",
+        "settlementWcid": 14665,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34939.31707317073, 11424.439024390244]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Empyrean Fields Cottages",
+        "settlementWcid": 14626,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34852.59259259259, 15269.481481481482]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jinianshi",
+        "settlementWcid": 12508,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [34833.76, 17961.76] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cragstone Farms",
+        "settlementWcid": 12485,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34840.8, 29281.835294117645]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tattered Ridge",
+        "settlementWcid": 14287,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35095.40425531915, 10080.765957446809]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Swamp Temple Place",
+        "settlementWcid": 12558,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35035.792207792205, 18745.402597402597]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yanshi Namoon North",
+        "settlementWcid": 12568,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35035.232876712325, 19874.465753424658]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bandit Road Villas",
+        "settlementWcid": 13091,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35035.898734177215, 41566.329113924054]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jenshi Cottages",
+        "settlementWcid": 15163,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35228.262295081964, 23326.22950819672]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zin-Dai",
+        "settlementWcid": 14679,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35620.09090909091, 16036.09090909091]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Li-Po Cottages",
+        "settlementWcid": 14645,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35611.90909090909, 16800.272727272728]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blackmire Edge Cottages",
+        "settlementWcid": 12477,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35618.89655172414, 17766.48275862069]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yukikaze",
+        "settlementWcid": 12569,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35819.71428571428, 7195.714285714285]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Holtburg Wilderness Settlement",
+        "settlementWcid": 12503,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [35803.2, 34259.1] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Yanshi Plains Settlement",
+        "settlementWcid": 12535,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [35983.90243902439, 23328] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Rithwic Estates",
+        "settlementWcid": 13140,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [36004.2, 27358.8] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Span Way Settlement",
+        "settlementWcid": 12493,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35998.153846153844, 32341.53846153846]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Lytelthorpe Villas",
+        "settlementWcid": 13115,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36189.15789473684, 25995.473684210527]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Victory Harbor",
+        "settlementWcid": 12553,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [36201.9, 28709.4] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jasmine Meadow",
+        "settlementWcid": 14638,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36386.81481481482, 13724.888888888889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ishilai Inlet Villas",
+        "settlementWcid": 13110,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [36786.72, 4128.48] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ishilai Inlet Settlement",
+        "settlementWcid": 12506,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [36784, 4896] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ring of Crystals Estates",
+        "settlementWcid": 13121,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36771.818181818184, 12958.09090909091]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norvale",
+        "settlementWcid": 14654,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [36959.7, 41756.1] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norstead",
+        "settlementWcid": 12530,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36961.60824742268, 42529.85567010309]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mage's Pass",
+        "settlementWcid": 14271,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37155.333333333336, 11806.333333333334]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lo-Han",
+        "settlementWcid": 14646,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37067.77358490566, 16124.830188679245]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leafdawning Settlement",
+        "settlementWcid": 12511,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37154.13698630137, 27555.780821917808]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Adjamaer Cottages",
+        "settlementWcid": 12531,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37340.086956521736, 6237.652173913043]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Sawato Cottages",
+        "settlementWcid": 12491,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37344, 16994.454545454544]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Lytelthorpe",
+        "settlementWcid": 12552,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [37332.96, 23892.32] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meridian Cottages",
+        "settlementWcid": 12520,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37525.79104477612, 26012.955223880595]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ayn Tayan",
+        "settlementWcid": 12475,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37628.39160839161, 15070.90909090909]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Snakehead",
+        "settlementWcid": 14284,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37732.68292682927, 20831.70731707317]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Broken Haft Vale",
+        "settlementWcid": 15669,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37728.72289156626, 41761.301204819276]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Adjamaer Cottages",
+        "settlementWcid": 12548,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37906.333333333336, 5087.666666666667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Sawato Villas",
+        "settlementWcid": 13116,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37924.10526315789, 19678.42105263158]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Baishi Settlement",
+        "settlementWcid": 14261,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38097.3698630137, 12562.684931506848]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neu Gerz Villas",
+        "settlementWcid": 13114,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [38112.75, 22783.875] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Lytelthorpe Settlement",
+        "settlementWcid": 12490,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38290.243902439026, 24477.951219512193]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake Blessed Cottages",
+        "settlementWcid": 12509,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38310.04255319149, 28428.85106382979]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Strathelar's Watch Cottages",
+        "settlementWcid": 12557,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38299.42857142857, 29274.85714285714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Cannthalo",
+        "settlementWcid": 15178,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38305.06329113924, 40410.379746835446]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jai-Tan Dale",
+        "settlementWcid": 14268,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38656.96551724138, 13532.275862068966]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Far Claw Villas",
+        "settlementWcid": 13104,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38605.167567567565, 37461.6]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xinh",
+        "settlementWcid": 14292,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38883.44827586207, 5661.931034482759]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Slinker Meadows",
+        "settlementWcid": 13129,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38876.57142857143, 25246.285714285714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Eastham Meadow",
+        "settlementWcid": 12533,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38878.829268292684, 30046.536585365855]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southeast Arwic Settlement",
+        "settlementWcid": 12549,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38884.09090909091, 31390.363636363636]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mire Hill",
+        "settlementWcid": 14273,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39058.83870967742, 19294.83870967742]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Imuth Maer Cottages",
+        "settlementWcid": 12505,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39074.81481481482, 20636.88888888889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jin-Lai Stronghold",
+        "settlementWcid": 15165,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39073.066666666666, 22745.333333333332]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eotensfang Cottages",
+        "settlementWcid": 14628,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39062.51162790698, 34276.46511627907]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "P'rnelle Acres",
+        "settlementWcid": 15183,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [39070.5, 41185.2] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haliana",
+        "settlementWcid": 14263,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39072.88421052632, 41953.13684210526]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Baishi Cottages",
+        "settlementWcid": 12532,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39648.53333333333, 13721.866666666667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sawato Foothills Settlement",
+        "settlementWcid": 12542,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39643.80722891566, 16792.048192771083]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Village Quan",
+        "settlementWcid": 15200,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39644.50632911392, 20065.063291139242]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Broadacre Cottages",
+        "settlementWcid": 12480,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39734.4, 21599.717647058824]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gaerwel Edge Settlement",
+        "settlementWcid": 12500,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39629.77777777778, 26014.962962962964]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Filos' Font Cottages",
+        "settlementWcid": 12497,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39628, 27745.666666666668]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lost Wish Cottages",
+        "settlementWcid": 14650,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39645.8313253012, 34078.698795180724]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Sawato Settlement",
+        "settlementWcid": 12492,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [39930.91764705882, 17760] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sennon Valley Retreat",
+        "settlementWcid": 12543,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39833.46835443038, 36948.60759493671]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maedew",
+        "settlementWcid": 12516,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40032.27906976744, 22381.674418604653]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverbend Cottages",
+        "settlementWcid": 13122,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40036.988764044945, 23709.16853932584]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lugian Meadows Settlement",
+        "settlementWcid": 12515,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40320.29268292683, 6624.4390243902435]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sclavavania",
+        "settlementWcid": 14281,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40223.27710843374, 19301.060240963856]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Siege Road Villas",
+        "settlementWcid": 14282,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40221.51724137931, 25223.172413793105]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cape Feirgard Cottages",
+        "settlementWcid": 12482,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40234.333333333336, 31769.666666666668]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Beach Pass Villas",
+        "settlementWcid": 13090,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40216.73684210526, 32944.42105263158]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Explorer's Villas",
+        "settlementWcid": 19144,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40225.333333333336, 39250.333333333336]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Isparian Flame Estates",
+        "settlementWcid": 19149,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40225.670886075946, 40037.92405063291]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crescent Lane Cottages",
+        "settlementWcid": 14257,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40406.96296296296, 21018.51851851852]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Rithwic Estates",
+        "settlementWcid": 13102,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40415.27710843374, 26977.87951807229]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tanshi",
+        "settlementWcid": 13136,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40600.09756097561, 13537.170731707318]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Secluded Valley Cottages",
+        "settlementWcid": 19158,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40612.09756097561, 36957.95121951219]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Siege Road Settlement",
+        "settlementWcid": 12546,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40798.829268292684, 24286.536585365855]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Font Alpa",
+        "settlementWcid": 13105,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40992.83720930233, 9506.232558139534]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shou-Zin",
+        "settlementWcid": 13127,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40993.913043478264, 15666.608695652174]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San-Chin",
+        "settlementWcid": 14662,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40991.70731707317, 19101.365853658535]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lin Kiln Park",
+        "settlementWcid": 15170,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41175.388235294115, 12758.258823529412]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Shoushi Villas",
+        "settlementWcid": 13133,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41184.395604395606, 14686.54945054945]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chi Zou Cottages",
+        "settlementWcid": 12484,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41184.40449438202, 17374.786516853932]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beach Pass Villas",
+        "settlementWcid": 13092,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41219.555555555555, 35802.666666666664]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hand-on-Sword Cottages",
+        "settlementWcid": 19147,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [41172.96, 36571.68] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jeweled Thorn Estates",
+        "settlementWcid": 19150,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [41376, 37442.51851851852] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arrowdale Cottages",
+        "settlementWcid": 15664,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41759.92546583851, 39938.90683229814]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Narsys",
+        "settlementWcid": 14276,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41949.07317073171, 20642.048780487807]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Siege Villas",
+        "settlementWcid": 15193,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41862.63354037267, 21408.521739130436]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Mayoi Mountain Villas",
+        "settlementWcid": 13139,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42126.333333333336, 9891.333333333334]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mosswart Place Cottages",
+        "settlementWcid": 12522,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42233.12195121951, 19101.073170731706]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sai-Nan",
+        "settlementWcid": 14280,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42523.60975609756, 13731.219512195123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aimaru Plains Cottages",
+        "settlementWcid": 12468,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42621.77777777778, 17757.777777777777]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dryreach Beach Manors",
+        "settlementWcid": 13100,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42733.04347826087, 23529.565217391304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shian-To Cottages",
+        "settlementWcid": 12545,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42913.301204819276, 14687.56626506024]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ariake",
+        "settlementWcid": 12472,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42909.142857142855, 20442.85714285714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dryreach Beach Cottages",
+        "settlementWcid": 12487,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42915.46666666667, 21410.4]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vesayan Overlook",
+        "settlementWcid": 12562,
+        "category": "settlement"
+      },
+      "geometry": { "type": "Point", "coordinates": [43094.153846153844, 8160] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bluewater Cottages",
+        "settlementWcid": 12478,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [43275.38461538462, 19666.76923076923]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stoneport Villas",
+        "settlementWcid": 13134,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [43477.37142857143, 18337.371428571427]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Hebian-To Cottages",
+        "settlementWcid": 12550,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [43693.395348837206, 13913.581395348838]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Hebian-To Estates",
+        "settlementWcid": 13132,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44452.57142857143, 13534.57142857143]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meditation Meadow",
+        "settlementWcid": 12519,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44834.04255319149, 12573.95744680851]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ong-Hau Village",
+        "settlementWcid": 14655,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45412.48192771084, 13338.072289156626]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southwest Hebian-To Settlement",
+        "settlementWcid": 12554,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45415.45945945946, 14116.216216216217]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nan-Zari",
+        "settlementWcid": 13112,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45789.04918032787, 12766.622950819672]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tou-Tou Road Villas",
+        "settlementWcid": 13137,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46371.529411764706, 14304.988235294117]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tou-Tou Penninsula Cottages",
+        "settlementWcid": 12561,
+        "category": "settlement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46562.582278481015, 15250.177215189873]
+      }
+    }
+  ]
+}
