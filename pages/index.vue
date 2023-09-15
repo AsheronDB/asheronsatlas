@@ -1,8 +1,7 @@
 <template>
   <div class="h-screen" id="atlas">
 
-
-      <DerethMap />
+    <DerethMap />
  
   </div>
 </template>
