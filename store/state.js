@@ -21,8 +21,9 @@ export default () => {
       },
       dereth: {
         layers: {
-          landscapeObjects: true,
+          lootTiers: false,
           impassableTerrain: false,
+          landscapeObjects: true,    
           developmentRegions: false,
         },
         landblockGrid: false,

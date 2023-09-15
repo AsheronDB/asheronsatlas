@@ -19,6 +19,7 @@
       </div>
 
       <DetailCard class="pointer-events-auto z-50" v-if="targetedPosition" />
+      <LootTiersKey class="pointer-events-auto z-50" v-if="options.dereth.layers.lootTiers" />
     </div>
   </div>
 </template>
@@ -33,9 +34,10 @@ import Sidebar from "@/components/Sidebar";
 import Search from "@/components/Search";
 import DetailCard from "@/components/DetailCard";
 import ControlBar from "@/components/ControlBar";
+import LootTiersKey from "@/components/LootTiersKey";
 
 const store = useStore();
-const { targetedPosition } = storeToRefs(store);
+const { options, targetedPosition } = storeToRefs(store);
 
 definePageMeta({
   layout: "fill",

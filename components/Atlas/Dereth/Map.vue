@@ -64,6 +64,7 @@ const layers = reactive({
     spawns: null,
     targetedPosition: null,
   },
+  lootTiers: null,
   impassable: {
     slopes: null,
     water: null,
@@ -235,6 +236,16 @@ watch(
     toggleLayerVisibility(store.options.dereth.layers.impassableTerrain, [
       layers.impassable.water,
       layers.impassable.slopes,
+    ]);
+  }
+);
+
+watch(
+  () => store.options.dereth.layers.lootTiers,
+  async (newVal, oldVal) => {
+    console.log("impassableTerrain watcher");
+    toggleLayerVisibility(store.options.dereth.layers.lootTiers, [
+      layers.lootTiers,
     ]);
   }
 );
@@ -563,10 +574,12 @@ const initMap = () => {
     layers.features[layer] = L.featureGroup().addTo(map.value);
   }
 
+  layers.lootTiers = L.featureGroup();
+
   // Set up custom panes
 
   map.value.createPane("canvasGrid");
-  map.value.getPane('canvasGrid').style.zIndex = 550;
+  map.value.getPane("canvasGrid").style.zIndex = 550;
   renderers.canvasGrid = L.canvas({ pane: "canvasGrid" });
 
   // Set up tile layers
@@ -711,10 +724,7 @@ const onMapClick = async (event) => {
     store.selectedLocation = null;
     store.targetedPosition = null;
     store.searchQuery = "";
-  } else if (
-    store.targetedPosition &&
-    !store.options.dereth.landblockGrid
-  ) {
+  } else if (store.targetedPosition && !store.options.dereth.landblockGrid) {
     // ?
     store.targetedPosition = null;
     store.searchQuery = "";
@@ -802,6 +812,17 @@ const onMapReady = async () => {
   // Load data and show map
 
   renderLandblockGrid();
+
+  lootTiers.features.forEach((feature) => {
+    const poly = L.polygon(feature.geometry.coordinates, {
+      fillColor: feature.properties.color,
+      fillOpacity: 0.8,
+      stroke: false,
+    });
+
+    layers.lootTiers.addLayer(poly);
+  });
+
   //await getVisibleLocations();
 
   //   const poly = L.polygon(regionCells.geometry.coordinates, {
@@ -824,15 +845,6 @@ const onMapReady = async () => {
   //   const poly = L.polygon(feature.geometry.coordinates, { fillColor: 'orange', fillOpacity: 0.8, stroke: false });
   //   poly.addTo(map.value);
   // });
-
-  //   lootTiers.features.forEach((feature) => {
-  //     const poly = L.polygon(feature.geometry.coordinates, {
-  //       fillColor: feature.properties.color,
-  //       fillOpacity: 0.8,
-  //       stroke: false,
-  //     });
-  //     poly.addTo(map.value);
-  //   });
 
   store.derethMapLoaded = true;
 };
@@ -865,7 +877,7 @@ const renderLandblockGrid = () => {
     color: "#000000",
     weight: 0.8,
     interactive: false,
-    pane: 'canvasGrid',
+    pane: "canvasGrid",
     renderer: renderers.canvasGrid,
     fillColor: "transparent",
   });
@@ -877,7 +889,7 @@ const renderLandblockGrid = () => {
   let opts = {
     color: "#000000",
     weight: 0.8,
-    pane: 'canvasGrid',
+    pane: "canvasGrid",
     renderer: renderers.canvasGrid,
     interactive: false,
   };
@@ -891,7 +903,7 @@ const renderLandblockGrid = () => {
   let cellOpts = {
     color: "#000000",
     weight: 0.6,
-    pane: 'canvasGrid',
+    pane: "canvasGrid",
     renderer: renderers.canvasGrid,
     interactive: false,
     opacity: 0.65,

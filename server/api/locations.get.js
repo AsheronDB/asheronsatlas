@@ -58,8 +58,13 @@ function getZoomCategories(zoom) {
   return categories;
 }
 
-export default defineEventHandler((event) => {
+export default defineEventHandler(async (event) => {
+
   console.log("LOCATIONS GET ROUTE");
+
+  const nitroDb = await useStorage('db');
+  console.log(nitroDb);
+
 
   const query = getQuery(event);
 

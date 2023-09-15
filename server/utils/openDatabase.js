@@ -13,7 +13,7 @@ const DB_PATH = join(
 );
 
 export default () => {
-  const db = new Database(DB_PATH, {
+  const db = new Database('http://localhost:3000/ace.db', {
     readonly: false,
     fileMustExist: true,
     verbose: console.log,
