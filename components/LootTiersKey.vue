@@ -5,7 +5,7 @@
 
     <ul>
       <li v-for="tier in tiers">
-         <span class="inline-block w-2.5 h-2.5 mr-3" :style="{ 'background-color': tier.properties.color }"></span><span class="font-bold text-sm">Tier {{  tier.properties.tier }}</span>
+         <span class="inline-block w-3 h-3 mr-3 border border-slate-800 rounded-sm" :style="{ 'background-color': tier.properties.color }"></span><span class="font-bold text-sm">Tier {{  tier.properties.tier }}</span>
       </li>
     </ul>
   </div>

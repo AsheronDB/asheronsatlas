@@ -1,5 +1,11 @@
 <template>
   <div class="flex flex-row justify-end">
+    <div v-if="hoveredPosition" class="mr-2" >
+
+      <UButton color="black" variant="ghost" size="lg" class="text-white  text-sm font-bold">   <span class="drop-shadow"> {{ hoveredPosition.coordinates.radar.formatted  }}</span></UButton>
+    
+   
+    </div>
     <div class="mr-2">
       <UButton
         size="lg"
@@ -36,7 +42,7 @@ import { useStore } from "@/store";
 import { storeToRefs } from "pinia";
 
 const store = useStore();
-const { options } = storeToRefs(store);
+const { options, hoveredPosition } = storeToRefs(store);
 
 const layerItems = computed(() =>
   Object.entries(options.value.dereth.layers).map((layer) => {

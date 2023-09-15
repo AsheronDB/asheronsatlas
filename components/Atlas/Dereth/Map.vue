@@ -779,7 +779,13 @@ const onMapMouseMove = (event) => {
     handleLandblockGridHover(latlng);
   }
 
-  store.hoveredPosition = globalToPos(event.latlng.lng, event.latlng.lat);
+  let cursorInBounds = L.latLngBounds(mapBounds.value).contains(event.latlng);
+
+  if (cursorInBounds) {
+    store.hoveredPosition = globalToPos(event.latlng.lng, event.latlng.lat);
+  } else {
+    store.hoveredPosition = null;
+  }
 };
 
 const onMapZoomStart = async (event) => {
