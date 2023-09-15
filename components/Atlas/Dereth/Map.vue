@@ -737,7 +737,7 @@ const onMapMoveEnd = async () => {
   console.log(currentZoom.value, "Current zoom: ");
 
   if (!isInitialLoad.value) {
-    await getVisibleLocations();
+    //await getVisibleLocations();
   }
 };
 

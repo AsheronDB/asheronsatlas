@@ -31,7 +31,13 @@
     <UModal v-model="isLocModalOpen" ref="locStringModalEl">
       <div class="p-6">
         <p class="font-bold text-sm mb-3">Location String</p>
-        <UInput v-model="targetedPosition.loc" icon="i-heroicons-clipboard-document" size="xl" autofocus ref="locStringInputEl"  @focus="$event.target.select()"  />
+        <UInput
+          v-model="targetedPosition.loc"
+          icon="i-heroicons-clipboard-document"
+          size="xl"
+          autofocus
+          ref="locStringInputEl"
+          @focus="$event.target.select()" />
       </div>
       <div class="absolute top-1 right-1" @click="isLocModalOpen = false">
         <UButton
@@ -57,26 +63,21 @@ const isLocModalOpen = ref(false);
 const store = useStore();
 const { targetedPosition, targetedReverseGeocode } = storeToRefs(store);
 
-
 watch(isLocModalOpen, (newVal) => {
-
   console.log(isLocModalOpen);
-  console.log('locStringModalEl');
+  console.log("locStringModalEl");
   console.log(locStringModalEl);
   if (newVal) {
-
     console.log(locStringInputEl.value);
 
     //locStringInputEl.input.select()
 
-   // console.log(locStringInputEl.value.input);
+    // console.log(locStringInputEl.value.input);
 
     // locStringInputEl.value.input.focus();
-  // locStringInputEl.value.select();
-  } 
-
-})
-
+    // locStringInputEl.value.select();
+  }
+});
 
 const onClose = () => {
   targetedPosition.value = null;

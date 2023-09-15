@@ -8,8 +8,7 @@ const DB_PATH = join(
   __dirname,
   "..",
   "..",
-  "assets",
-  "data",
+  "public",
   "ace.db"
 );
 
