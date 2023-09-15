@@ -723,9 +723,9 @@ const onMapClick = async (event) => {
       console.log("click in bounds!");
       const clickedPosition = globalToPos(event.latlng.lng, event.latlng.lat);
 
-      await store.reverseGeocode(
-        `${clickedPosition.coordinates.global.x},${clickedPosition.coordinates.global.y}`
-      );
+      // await store.reverseGeocode(
+      //   `${clickedPosition.coordinates.global.x},${clickedPosition.coordinates.global.y}`
+      // );
       store.targetedPosition = clickedPosition;
       store.searchQuery = clickedPosition.coordinates.radar.formatted;
     }
