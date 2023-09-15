@@ -49,7 +49,6 @@ const tileSize = ref(DERETH_MAP_TILE_SIZE);
 const layers = reactive({
   features: {
     selectedLocation: null,
-    targetedPosition: null,
     locations: null,
     regions: null,
     labelBoundingBoxes: null,
@@ -63,6 +62,7 @@ const layers = reactive({
     cellLayerTest: null,
     route: null,
     spawns: null,
+    targetedPosition: null,
   },
   impassable: {
     slopes: null,
@@ -566,6 +566,7 @@ const initMap = () => {
   // Set up custom panes
 
   map.value.createPane("canvasGrid");
+  map.value.getPane('canvasGrid').style.zIndex = 550;
   renderers.canvasGrid = L.canvas({ pane: "canvasGrid" });
 
   // Set up tile layers
@@ -864,6 +865,7 @@ const renderLandblockGrid = () => {
     color: "#000000",
     weight: 0.8,
     interactive: false,
+    pane: 'canvasGrid',
     renderer: renderers.canvasGrid,
     fillColor: "transparent",
   });
@@ -875,6 +877,7 @@ const renderLandblockGrid = () => {
   let opts = {
     color: "#000000",
     weight: 0.8,
+    pane: 'canvasGrid',
     renderer: renderers.canvasGrid,
     interactive: false,
   };
@@ -888,6 +891,7 @@ const renderLandblockGrid = () => {
   let cellOpts = {
     color: "#000000",
     weight: 0.6,
+    pane: 'canvasGrid',
     renderer: renderers.canvasGrid,
     interactive: false,
     opacity: 0.65,
