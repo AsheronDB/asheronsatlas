@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute top-0 left-0 bottom-0 w-80 flex flex-col"><SearchBox /><SearchResults v-if="searchResults" /></div>
+  <div class="absolute top-0 left-0 bottom-0 w-80 flex flex-col"><SearchBox /><SearchResults v-if="searchResults.length > 0" /></div>
 </template>
 
 <script setup>

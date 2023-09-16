@@ -1,8 +1,10 @@
 <template>
-  <div class="flex-1 bg-blue-500">Search results</div>
-  </template>
-  
-  <script setup>
-  
+  <div class="flex-1 bg-blue-500">{{ searchResults }}</div>
+</template>
 
-  </script>
+<script setup>
+import { useStore } from "@/store";
+import { storeToRefs } from "pinia";
+const store = useStore();
+const { searchResults } = storeToRefs(store);
+</script>

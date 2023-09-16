@@ -1,20 +1,30 @@
 export default () => {
   return {
+    searchQuery: "",
     searchTerm: "",
-    searchResults: null,
     platform: undefined,
-    serverPort: undefined,
     spawnData: undefined,
     locations: undefined,
     sidebarVisible: true,
     hoveredPosition: null,
     targetedReverseGeocode: null,
+    targetedZoom: null,
     selectedLocation: null,
     targetedPosition: undefined,
+    moveMapOnPathChange: true,
     searchIndex: undefined,
     searchQuery: "",
     searchResults: [],
     derethMapLoaded: false,
+    locationPathRadar: null,
+    locationPathZoom: null,
+    locationPathObjCellId: null,
+    maps: {
+      dereth: {
+        zoom: null,
+        center: null
+      },
+    },
     options: {
       window: {
         maximized: false,
@@ -23,7 +33,7 @@ export default () => {
         layers: {
           lootTiers: false,
           impassableTerrain: false,
-          landscapeObjects: true,    
+          landscapeObjects: true,
           developmentRegions: false,
         },
         landblockGrid: false,

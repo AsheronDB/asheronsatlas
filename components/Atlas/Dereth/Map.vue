@@ -6,17 +6,16 @@
 
 <script setup>
 import { orderBy, debounce } from "lodash-es";
+
 import { useStore } from "@/store";
 import * as mapIcons from "@/common/mapIcons.js";
-import { ACPosition, globalToPos } from "@asherondb/ac-position";
+import { globalToPos, radarToPos } from "@asherondb/ac-position";
 import impassableWaterSvg from "@/assets/img/map/impassable.water.svg?raw";
 import impassableSlopesSvg from "@/assets/img/map/impassable.slopes.svg?raw";
-
-import spawnTest from "@/assets/spawntest.geo.json";
-import settlementRegions from "@/assets/settlement-regions.json";
+import { useRoute, useRouter } from "vue-router";
+// import settlementRegions from "@/assets/settlement-regions.json";
 import lootTiers from "@/assets/loottiers.geo.json";
-
-import regionCells from "@/assets/region-cells.json";
+// import regionCells from "@/assets/region-cells.json";
 
 // import labelgun from "labelgun";
 import {
@@ -30,8 +29,10 @@ import {
   DERETH_MAP_TILES_URL,
 } from "@/common/constants.js";
 
+const route = useRoute();
+const router = useRouter();
 const store = useStore();
-const mapContainer = ref();
+const mapContainer = ref(null);
 const locationClicked = ref(false);
 const mapClicked = ref(false);
 const mapMouseDown = ref(false);
@@ -219,7 +220,18 @@ const locationLayers = computed(() => {
   return pointMarkers;
 });
 
+const locationPathRoute = computed(() => {});
+
 // WATCHERS
+
+watch(route, (newVal) => {
+  console.log("index route watcher");
+  console.log(newVal);
+
+  // if (newVal.params.locationPath) {
+  //   routeValidationHandler(newVal.params.locationPath);
+  // }
+});
 
 watch(
   () => store.options.dereth.landblockGrid,
@@ -367,7 +379,7 @@ watch(
         newVal.coordinates.global.x,
       ]);
 
-      if (!mapClicked.value) {
+      if (store.moveMapOnPathChange) {
         map.value.panTo(latLng, { noMoveStart: true });
       }
 
@@ -548,7 +560,6 @@ const initMap = () => {
     maxZoom: maxZoom.value,
     boxZoom: false,
     zoomControl: false,
-    center: mapCenter.value,
     attributionControl: false,
     maxBoundsViscosity: 1,
     maxBounds: mapBoundsVisual.value,
@@ -708,7 +719,24 @@ const initMap = () => {
 
   // Set up map view
 
-  map.value.fitBounds(mapBounds.value);
+  // let initCenter = mapCenter.value;
+  // if (store.targetedPosition) {
+
+  //   initCenter = targetLatLng;
+
+  // }
+
+  if (store.locationPathRadar) {
+    const pos = radarToPos(store.locationPathRadar);
+    const latLng = L.latLng([
+      pos.coordinates.global.y,
+      pos.coordinates.global.x,
+    ]);
+
+    map.value.setView(latLng, store.locationPathZoom || 4);
+  } else {
+    map.value.fitBounds(mapBounds.value);
+  }
 
   map.value.whenReady(onMapReady);
 };
@@ -737,19 +765,41 @@ const onMapClick = async (event) => {
       // await store.reverseGeocode(
       //   `${clickedPosition.coordinates.global.x},${clickedPosition.coordinates.global.y}`
       // );
+
+      store.moveMapOnPathChange = false;
       store.targetedPosition = clickedPosition;
-      store.searchQuery = clickedPosition.coordinates.radar.formatted;
+      store.targetedZoom = map.value.getZoom();
+      //store.searchTerm = clickedPosition.coordinates.radar.formatted;
+      //store.moveMapOnPathChange = true;
     }
   }
 };
 
 const onMapMoveEnd = async () => {
   currentZoom.value = map.value.getZoom();
+  const mapCenter = map.value.getCenter();
   console.log(currentZoom.value, "Current zoom: ");
 
   if (!isInitialLoad.value) {
     //await getVisibleLocations();
+
+    store.moveMapOnPathChange = false;
+
+    const movedToPosition = globalToPos(mapCenter.lng, mapCenter.lat);
+
+    const radarCoordString = `@${movedToPosition.coordinates.radar.formatted
+      .split(", ")
+      .join(",")},${map.value.getZoom()}Z`;
+
+    router.replace({
+      name: "home",
+      params: {
+        locationPath: [radarCoordString],
+      },
+    });
   }
+
+  store.moveMapOnPathChange = true;
 };
 
 const onMapMoveStart = (event) => {

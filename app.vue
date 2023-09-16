@@ -9,7 +9,10 @@
 <script setup>
 
 useHead({
-  title: "Asheron's Atlas"
+  title: "Asheron's Atlas",
+  bodyAttrs: {
+    class: 'light'
+  },
 })
 </script>
 

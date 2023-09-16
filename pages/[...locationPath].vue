@@ -11,15 +11,21 @@
 
       <div class="h-full flex flex-row z-50">
         <div class="w-80">
-          <!-- <Search class="pointer-events-auto z-50" /> -->
+          <Search class="pointer-events-auto z-50" />
         </div>
         <div class="flex-1">
           <ControlBar class="pointer-events-auto" />
         </div>
       </div>
 
-      <Transition name="fade"><DetailCard class="pointer-events-auto z-50" v-if="targetedPosition" /></Transition>
-      <Transition name="fade"> <LootTiersKey class="pointer-events-auto z-50" v-if="options.dereth.layers.lootTiers" /></Transition>
+      <Transition name="fast-fade"
+        ><DetailCard class="pointer-events-auto z-50" v-if="targetedPosition"
+      /></Transition>
+      <Transition name="fast-fade">
+        <LootTiersKey
+          class="pointer-events-auto z-50"
+          v-if="options.dereth.layers.lootTiers"
+      /></Transition>
     </div>
   </div>
 </template>
@@ -27,6 +33,7 @@
 <script setup>
 import { useStore } from "@/store";
 import { storeToRefs } from "pinia";
+import { useRoute } from "vue-router";
 
 import DerethMap from "@/components/Atlas/Dereth/Map";
 
@@ -36,11 +43,21 @@ import DetailCard from "@/components/DetailCard";
 import ControlBar from "@/components/ControlBar";
 import LootTiersKey from "@/components/LootTiersKey";
 
+const route = useRoute();
 const store = useStore();
 const { options, targetedPosition } = storeToRefs(store);
 
+watch(route, (newVal) => {
+  console.log("index route watcher");
+  console.log(newVal);
+});
+
 definePageMeta({
+  middleware: ["location-path"],
+  name: "home",
   layout: "fill",
+  key: "homepage",
+  keepalive: true,
 });
 </script>
 

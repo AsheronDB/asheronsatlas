@@ -15,7 +15,8 @@
     </div>
 
     <div class="flex flex-col text-center pt-4">
-      <UButton class="mb-1" block disabled>Route</UButton>
+      <UButton class="mb-1" block @click="isShareModalOpen = true">Share</UButton>
+      <!-- <UButton class="mb-1" block disabled>Route</UButton> -->
       <UButton block @click="isLocModalOpen = true">Loc String</UButton>
     </div>
 
@@ -29,24 +30,66 @@
     </div>
 
     <UModal v-model="isLocModalOpen" ref="locStringModalEl">
-      <div class="p-6">
-        <p class="font-bold text-sm mb-3">Location String</p>
+      <UCard
+        :ui="{
+          ring: '',
+          divide: 'divide-y divide-gray-100 dark:divide-gray-800',
+        }">
+        <template #header>
+          <div class="flex items-center justify-between">
+            <h3
+              class="text-base font-semibold leading-6 text-gray-900 dark:text-white">
+              Location String
+            </h3>
+            <UButton
+              color="gray"
+              variant="ghost"
+              icon="i-heroicons-x-mark-20-solid"
+              class="-my-1"
+              @click="isLocModalOpen = false" />
+          </div>
+        </template>
         <UInput
           v-model="targetedPosition.loc"
           icon="i-heroicons-clipboard-document"
           size="xl"
           autofocus
+          readonly
           ref="locStringInputEl"
-          @focus="$event.target.select()" />
-      </div>
-      <div class="absolute top-1 right-1" @click="isLocModalOpen = false">
-        <UButton
-          icon="i-heroicons-x-mark"
-          size="2xs"
-          color="primary"
-          square
-          variant="ghost" />
-      </div>
+          @focus="$event.target.select();" />
+      </UCard>
+    </UModal>
+
+    <UModal v-model="isShareModalOpen">
+      <UCard
+        :ui="{
+          ring: '',
+          divide: 'divide-y divide-gray-100 dark:divide-gray-800',
+        }">
+        <template #header>
+          <div class="flex items-center justify-between">
+            <h3
+              class="text-base font-semibold leading-6 text-gray-900 dark:text-white">
+              Share
+            </h3>
+            <UButton
+              color="gray"
+              variant="ghost"
+              icon="i-heroicons-x-mark-20-solid"
+              class="-my-1"
+              @click="isShareModalOpen = false" />
+          </div>
+        </template>
+        <UInput
+          v-model="targetedPermalink"
+          icon="i-heroicons-clipboard-document"
+          size="xl"
+          autofocus
+          readonly
+          ref="locStringInputEl"
+          @focus="$event.target.select();"
+     />
+      </UCard>
     </UModal>
   </div>
 </template>
@@ -60,8 +103,16 @@ const locStringModalEl = ref(null);
 const locStringInputEl = ref(null);
 
 const isLocModalOpen = ref(false);
+const isShareModalOpen = ref(false);
 const store = useStore();
-const { targetedPosition, targetedReverseGeocode } = storeToRefs(store);
+const { targetedPosition, targetedReverseGeocode, targetedZoom } = storeToRefs(store);
+
+const targetedPermalink = computed(() => {
+  const radar = targetedPosition.value.coordinates.radar.formatted.split(', ').join(',');
+  let url = `https://asheronsatlas.com/@${radar}`;
+  if (targetedZoom.value) url += `,${targetedZoom.value}Z`;
+  return url; 
+});
 
 watch(isLocModalOpen, (newVal) => {
   console.log(isLocModalOpen);

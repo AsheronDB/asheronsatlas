@@ -1,11 +1,21 @@
 <template>
   <div class="flex flex-row justify-end">
-    <Transition name="fade"><div v-if="hoveredPosition" class="mr-2" >
+    <Transition name="fast-fade"
+      ><div v-if="hoveredPosition" class="mr-2">
+        <UButton
+          color="black"
+          variant="ghost"
+          size="lg"
+          class="text-white text-sm font-bold">
+          <span class="drop-shadow">
+            {{ hoveredPosition.coordinates.radar.formatted }}</span
+          ></UButton
+        >
+      </div></Transition
+    >
 
-      <UButton color="black" variant="ghost" size="lg" class="text-white  text-sm font-bold">   <span class="drop-shadow"> {{ hoveredPosition.coordinates.radar.formatted  }}</span></UButton>
-    
-   
-    </div></Transition>
+
+
     <div class="mr-2">
       <UButton
         size="lg"
@@ -18,7 +28,7 @@
         Grid</UButton
       >
     </div>
-    <div>
+    <div class="mr-1">
       <UDropdown :items="layerItems" :popper="{ placement: 'bottom-end' }">
         <UButton
           icon="i-heroicons-map"
@@ -33,6 +43,16 @@
           <span class="truncate">{{ item.label }}</span>
         </template>
       </UDropdown>
+    </div>
+    <div>
+      <UButton
+        size="lg"
+        color="white"
+        class="text-white"
+        variant="link"
+        to="https://github.com/AsheronDB/asheronsatlas"
+        target="_blank"
+        icon="i-fa6-brands-github"></UButton>
     </div>
   </div>
 </template>
@@ -52,7 +72,8 @@ const layerItems = computed(() =>
         label: layer[0],
         click: (event) => {
           event.preventDefault();
-          options.value.dereth.layers[layer[0]] = !options.value.dereth.layers[layer[0]];
+          options.value.dereth.layers[layer[0]] =
+            !options.value.dereth.layers[layer[0]];
         },
       },
     ];
