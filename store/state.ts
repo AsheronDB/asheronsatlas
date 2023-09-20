@@ -1,3 +1,4 @@
+import { SELECTED_DATA_TYPES } from "@/common/constants";
 export default () => {
   return {
     searchQuery: "",
@@ -13,16 +14,16 @@ export default () => {
     targetedPosition: undefined,
     moveMapOnPathChange: true,
     searchIndex: undefined,
-    searchQuery: "",
     searchResults: [],
     derethMapLoaded: false,
-    locationPathRadar: null,
+    locationPathCoords: null,
     locationPathZoom: null,
     locationPathObjCellId: null,
+    selectedData: null,
     maps: {
       dereth: {
         zoom: null,
-        center: null
+        center: null,
       },
     },
     options: {

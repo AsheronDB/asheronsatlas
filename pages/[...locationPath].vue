@@ -7,11 +7,12 @@
     </div>
 
     <div id="overlay" class="absolute inset-2.5 z-50 pointer-events-none">
-      <!-- <Sidebar class="pointer-events-auto z-40" /> -->
+    
 
       <div class="h-full flex flex-row z-50">
-        <div class="w-80">
-          <Search class="pointer-events-auto z-50" />
+        <div class="w-80 flex flex-col">
+          <SearchBox class="pointer-events-auto z-50 mb-2.5" />
+          <Sidebar class="pointer-events-auto z-40" />
         </div>
         <div class="flex-1">
           <ControlBar class="pointer-events-auto" />
@@ -38,7 +39,7 @@ import { useRoute } from "vue-router";
 import DerethMap from "@/components/Atlas/Dereth/Map";
 
 import Sidebar from "@/components/Sidebar";
-import Search from "@/components/Search";
+import SearchBox from "@/components/SearchBox";
 import DetailCard from "@/components/DetailCard";
 import ControlBar from "@/components/ControlBar";
 import LootTiersKey from "@/components/LootTiersKey";

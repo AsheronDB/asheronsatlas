@@ -17,7 +17,7 @@
     <div class="flex flex-col text-center pt-4">
       <UButton class="mb-1" block @click="isShareModalOpen = true">Share</UButton>
       <!-- <UButton class="mb-1" block disabled>Route</UButton> -->
-      <UButton block @click="isLocModalOpen = true">Loc String</UButton>
+      <UButton block @click="isLocModalOpen = true">Loc</UButton>
     </div>
 
     <div class="absolute top-1 right-1" @click="onClose">
@@ -109,8 +109,10 @@ const { targetedPosition, targetedReverseGeocode, targetedZoom } = storeToRefs(s
 
 const targetedPermalink = computed(() => {
   const radar = targetedPosition.value.coordinates.radar.formatted.split(', ').join(',');
-  let url = `https://asheronsatlas.com/@${radar}`;
-  if (targetedZoom.value) url += `,${targetedZoom.value}Z`;
+  
+  let path = `@${radar}`;
+  if (targetedZoom.value) path += `,${targetedZoom.value}Z`;
+  const url = `https://asheronsatlas.com/${radar}/${path}`;
   return url; 
 });
 

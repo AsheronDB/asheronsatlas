@@ -1,7 +1,7 @@
 import { useRuntimeConfig } from "#app";
 
 export default {
-  async getLocations(zoom, bbox) {
+  async getLocations(zoom: number, bbox) {
     return new Promise(async (resolve, reject) => {
       try {
         console.log("get locations");

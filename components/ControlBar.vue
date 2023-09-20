@@ -15,6 +15,32 @@
     >
 
 
+    <div class="mr-2">
+      <nuxt-link to="/@dfdfdfd">/@cdcdfd</nuxt-link>
+    </div>
+
+    <div class="mr-2">
+      <nuxt-link to="/location-id/@16.5S,41.0E,6Z">/loc/@coords</nuxt-link>
+    </div>
+
+    <div class="mr-2">
+      <nuxt-link to="/13.3N,46.4E/@13.3N,46.4E,4Z">/coords</nuxt-link>
+    </div>
+
+    <div class="mr-2">
+      <nuxt-link to="/0x12345678">/0x12345678</nuxt-link>
+    </div>
+
+    
+
+
+    <div class="mr-2">
+      <nuxt-link to="/@16.5S,41.0E,6Z">@coords</nuxt-link>
+    </div>
+
+    <div class="mr-2">
+      <nuxt-link to="/">Home Test</nuxt-link>
+    </div>
 
     <div class="mr-2">
       <UButton

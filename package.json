@@ -27,6 +27,7 @@
     "better-sqlite3": "^8.6.0",
     "date-fns": "^2.30.0",
     "joi": "^17.10.1",
+    "js-base64": "^3.7.5",
     "leaflet": "^1.9.4",
     "leaflet-svg-shape-markers": "^1.4.0",
     "lodash-es": "^4.17.21",

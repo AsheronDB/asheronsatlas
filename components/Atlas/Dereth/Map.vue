@@ -17,6 +17,8 @@ import { useRoute, useRouter } from "vue-router";
 import lootTiers from "@/assets/loottiers.geo.json";
 // import regionCells from "@/assets/region-cells.json";
 
+import { LocationDataTypes } from '@/common/enums';
+
 // import labelgun from "labelgun";
 import {
   DERETH_MAP_TILE_SIZE,
@@ -26,7 +28,7 @@ import {
   GLOBAL_COORDS_MIN,
   CDN_ASSETS_URL,
   CELL_LENGTH,
-  DERETH_MAP_TILES_URL,
+  DERETH_MAP_TILES_URL
 } from "@/common/constants.js";
 
 const route = useRoute();
@@ -232,6 +234,30 @@ watch(route, (newVal) => {
   //   routeValidationHandler(newVal.params.locationPath);
   // }
 });
+
+watch(
+  () => store.selectedData,
+  (newVal) => {
+    console.log("selectedData watcher");
+    console.log(newVal);
+
+    if (newVal) {
+      
+      switch (store.selectedData.type) {
+        case LocationDataTypes.Coords:
+          
+          // function to handle drawing coord
+
+          break;
+      }
+    } else {
+
+      // Clear everything
+      // - Markers
+
+    }
+  }
+);
 
 watch(
   () => store.options.dereth.landblockGrid,
@@ -726,8 +752,8 @@ const initMap = () => {
 
   // }
 
-  if (store.locationPathRadar) {
-    const pos = radarToPos(store.locationPathRadar);
+  if (store.locationPathCoords) {
+    const pos = radarToPos(store.locationPathCoords);
     const latLng = L.latLng([
       pos.coordinates.global.y,
       pos.coordinates.global.x,
@@ -747,10 +773,11 @@ const onMapClick = async (event) => {
   const clickInBounds = L.latLngBounds(mapBounds.value).contains(event.latlng);
   mapClicked.value = true;
 
-  if (store.selectedLocation) {
+  if (store.selectedLocation || store.selectedData) {
     // If location currently selected, clear it when map is clicked
     store.selectedLocation = null;
     store.targetedPosition = null;
+    store.selectedData = null;
     store.searchQuery = "";
   } else if (store.targetedPosition && !store.options.dereth.landblockGrid) {
     // ?

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-0 shadow">
+  <div class="w-full flex-0 shadow">
     <UInput
       icon="i-heroicons-magnifying-glass-20-solid"
       size="lg"
