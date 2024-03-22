@@ -9,11 +9,9 @@ export const DERETH_MAP_MIN_ZOOM = 0;
 
 
 
-export const CDN_ASSETS_URL = 'https://cdn.asherondb.com/assets';
-export const DERETH_MAP_TILES_URL = 'https://cdn.asherondb.com/assets/img/map/tiles';
+export const CDN_ASSETS_URL = 'https://s3.amazonaws.com/cdn.asherondb.com/assets';
+export const DERETH_MAP_TILES_URL = 'https://s3.amazonaws.com/cdn.asherondb.com/assets/img/map/tiles';
 // export const CDN_ASSETS_URL = 'static'
-
-
 
 
 
